@@ -5,7 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Indicadores de evaluación de proveedores
+
+  
 
 </template>
 
@@ -13,7 +15,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {

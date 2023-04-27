@@ -5,7 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Ficha técnica de los productos farmacéuticos
+    
+  
+
+
+
 
 </template>
 
@@ -25,5 +30,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>
