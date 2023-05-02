@@ -17,6 +17,14 @@
         figure
           img(src="@/assets/curso/intro1.svg" data-aos="fade-left")
 
+    .row.mt-5
+      .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
+        .p-4.cont_responsive1(data-aos="fade-right" style="background-color:#CDEDFC;width:160%;right:-20%;border-radius:40px 40px 0px 40px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
+          p.mb-0.mt-4.mb-4 Todo esto va de la mano del aporte de la farmacología general y especial que permite comprender el amplio mundo de la farmacología, sus diferentes disciplinas, grupos terapéuticos, grupos farmacológicos, así como la comprensión de la medicina tradicional en la que se pueden encontrar plantas medicinales para el tratamiento y alivio de las patologías.
+      .col-lg-9
+        figure
+          img(src="@/assets/curso/intro2.png" data-aos="fade-left")
+
 
 
     
