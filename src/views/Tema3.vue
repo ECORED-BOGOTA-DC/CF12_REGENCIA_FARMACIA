@@ -211,7 +211,7 @@
             i.fas.fa-atom(style="color:#7E5EE3;") 
             | Atrapar y disolver los coágulos de sangre que se formen en las venas.
         .cajon.color-secundario.p-4.mt-4(style="background-color:#F2EEFC;")
-          p.mb-0(data-aos="fade-up") #[strong La respiración] es un proceso involuntario y automático, en el que se extrae el oxígeno del aire inspirado y se expulsan los desechos en el aire expulsado. Consiste en tomar oxígeno (O2) y expulsar el dióxido de carbono producido a nivel celular (CO2).
+          p.mb-0(data-aos="fade-up") #[strong La respiración] es un proceso involuntario y automático, en el que se extrae el oxígeno del aire inspirado y se expulsan los desechos en el aire expulsado. Consiste en tomar oxígeno (O#[sub 2]) y expulsar el dióxido de carbono producido a nivel celular (CO#[sub 2]).
     
     p.mt-5(data-aos="fade-up") A continuación, se muestran las partes del sistema respiratorio y sus funciones:
 
@@ -322,44 +322,51 @@
     p.mt-5(data-aos="fade-up") Las partes y funciones del sistema endocrino son:
 
     .cont_3_4.mt-5.pt-5.pb-5
-      .col-lg-10.m-auto
-        ImagenInfografica.color-acento-botones.infografia2
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema3/19.svg' data-aos="zoom-in-up")
-          .tarjeta.color-acento-botones.p-3(x="16.5%" y="4%" numero="1" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Hipotálamo:] controla la temperatura corporal y el hambre.
-          .tarjeta.color-acento-botones.p-3(x="20%" y="5%" numero="2" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándula pineal:] secreta la melatonina que controla el proceso del sueño y el despertar en la mañana.
-          .tarjeta.color-acento-botones.p-3(x="18%" y="9%" numero="3" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándula pituitaria:] conocida como la hormona estimulante de la tiroides. Está involucrada en los procesos de crecimiento.
-          .tarjeta.color-acento-botones.p-3(x="19%" y="14%" numero="4" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas tiroides y paratiroides:] la hormona tiroides que controla todo el metabolismo del cuerpo y la hormona paratiroides controla el metabolismo del calcio para el funcionamiento correcto de los músculos y nervios.
-          .tarjeta.color-acento-botones.p-3(x="17%" y="19%" numero="5" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Timo:] participa en la regulación de las glándulas sexuales, crecimiento óseo y colabora en el desarrollo del sistema linfático.
-          .tarjeta.color-acento-botones.p-3(x="18%" y="37%" numero="6" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Páncreas:] encargado de la producción de insulina para controlar los niveles de glucosa en sangre.
-          .tarjeta.color-acento-botones.p-3(x="19.5%" y="33%" numero="7" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas adrenales:] participan en la regulación de los latidos del corazón y la presión arterial.
-          .tarjeta.color-acento-botones.p-3(x="16%" y="43%" numero="8" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Ovarios:] cumple una función importante en el desarrollo de las características femeninas, forma del cuerpo, vello y mamas; allí se forman los óvulos y los estrógenos.
+      .col-xl-10.m-auto
+        .row
+          .col-lg.mb-5.mb-lg-0
+            ImagenInfografica.color-acento-botones.infografia2
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema3/19.svg' data-aos="zoom-in-up")
+              .tarjeta.color-acento-botones.p-3(x="43%" y="2%" numero="1" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Hipotálamo:] controla la temperatura corporal y el hambre.
+              .tarjeta.color-acento-botones.p-3(x="52%" y="3.5%" numero="2" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándula pineal:] secreta la melatonina que controla el proceso del sueño y el despertar en la mañana.
+              .tarjeta.color-acento-botones.p-3(x="46%" y="8%" numero="3" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándula pituitaria:] conocida como la hormona estimulante de la tiroides. Está involucrada en los procesos de crecimiento.
+              .tarjeta.color-acento-botones.p-3(x="49%" y="13%" numero="4" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas tiroides y paratiroides:] la hormona tiroides que controla todo el metabolismo del cuerpo y la hormona paratiroides controla el metabolismo del calcio para el funcionamiento correcto de los músculos y nervios.
+              .tarjeta.color-acento-botones.p-3(x="43%" y="19%" numero="5" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Timo:] participa en la regulación de las glándulas sexuales, crecimiento óseo y colabora en el desarrollo del sistema linfático.
+              .tarjeta.color-acento-botones.p-3(x="47%" y="37%" numero="6" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Páncreas:] encargado de la producción de insulina para controlar los niveles de glucosa en sangre.
+              .tarjeta.color-acento-botones.p-3(x="51%" y="33%" numero="7" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas adrenales:] participan en la regulación de los latidos del corazón y la presión arterial.
+              .tarjeta.color-acento-botones.p-3(x="41%" y="43%" numero="8" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Ovarios:] cumple una función importante en el desarrollo de las características femeninas, forma del cuerpo, vello y mamas; allí se forman los óvulos y los estrógenos.
 
-          .tarjeta.color-acento-botones.p-3(x="80%" y="2%" numero="1" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Hipotálamo:] controla la temperatura corporal y el hambre.
-          .tarjeta.color-acento-botones.p-3(x="83.5%" y="3.5%" numero="2" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándula pineal:] secreta la melatonina que controla el proceso del sueño y el despertar en la mañana.
-          .tarjeta.color-acento-botones.p-3(x="81.5%" y="8%" numero="3" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándula pituitaria:] conocida como la hormona estimulante de la tiroides. Está involucrada en los procesos de crecimiento.
-          .tarjeta.color-acento-botones.p-3(x="83%" y="13%" numero="4" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas tiroides y paratiroides:] la hormona tiroides que controla todo el metabolismo del cuerpo y la hormona paratiroides controla el metabolismo del calcio para el funcionamiento correcto de los músculos y nervios.
-          .tarjeta.color-acento-botones.p-3(x="80%" y="19%" numero="5" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Timo:] participa en la regulación de las glándulas sexuales, crecimiento óseo y colabora en el desarrollo del sistema linfático.
-          .tarjeta.color-acento-botones.p-3(x="81.5%" y="38%" numero="6" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Páncreas:] encargado de la producción de insulina para controlar los niveles de glucosa en sangre.
-          .tarjeta.color-acento-botones.p-3(x="83%" y="33%" numero="7" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas adrenales:] participan en la regulación de los latidos del corazón y la presión arterial.
-          .tarjeta.color-acento-botones.p-3(x="81.5%" y="46%" numero="8" style="background-color:#E0D9F6;border-radius:0px;")
-            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Testículos:] producción de testosterona y gametos masculinos.
+          .col-lg.mb-5.mb-lg-0
+            ImagenInfografica.color-acento-botones.infografia2
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema3/19-1.svg' data-aos="zoom-in-up")  
+              .tarjeta.color-acento-botones.p-3(x="49%" y="2%" numero="1" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Hipotálamo:] controla la temperatura corporal y el hambre.
+              .tarjeta.color-acento-botones.p-3(x="56%" y="3.5%" numero="2" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándula pineal:] secreta la melatonina que controla el proceso del sueño y el despertar en la mañana.
+              .tarjeta.color-acento-botones.p-3(x="52%" y="7%" numero="3" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándula pituitaria:] conocida como la hormona estimulante de la tiroides. Está involucrada en los procesos de crecimiento.
+              .tarjeta.color-acento-botones.p-3(x="55%" y="13%" numero="4" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas tiroides y paratiroides:] la hormona tiroides que controla todo el metabolismo del cuerpo y la hormona paratiroides controla el metabolismo del calcio para el funcionamiento correcto de los músculos y nervios.
+              .tarjeta.color-acento-botones.p-3(x="48%" y="18%" numero="5" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Timo:] participa en la regulación de las glándulas sexuales, crecimiento óseo y colabora en el desarrollo del sistema linfático.
+              .tarjeta.color-acento-botones.p-3(x="52%" y="38%" numero="6" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Páncreas:] encargado de la producción de insulina para controlar los niveles de glucosa en sangre.
+              .tarjeta.color-acento-botones.p-3(x="56%" y="33%" numero="7" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas adrenales:] participan en la regulación de los latidos del corazón y la presión arterial.
+              .tarjeta.color-acento-botones.p-3(x="52%" y="46%" numero="8" style="background-color:#E0D9F6;border-radius:0px;")
+                p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Testículos:] producción de testosterona y gametos masculinos.
 
     Separador.mt-5
 
@@ -474,7 +481,7 @@
                 | #[strong Deltoides:] cualquier movimiento donde esté involucrado el levantamiento de peso.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema3/22.png")
+              img(src="@/assets/curso/tema3/22.svg")
     
     Separador.mt-5
 
@@ -485,7 +492,7 @@
     p.mt-4(data-aos="fade-up") A continuación, se exponen los sistemas de reproducción masculino y femenino, así como sus partes y funciones:
 
     .mt-5.tarjeta.tarjeta--gris.p-4(style="border-radius:0px;background-color:#DEE4F0;")
-      SlyderA
+      SlyderA.slydera1
         div
           figure.col-7.m-auto
             img(src="@/assets/curso/tema3/23.svg")
@@ -505,7 +512,7 @@
                 p.mb-0 #[strong Endometrio:] capa interna del útero que recibe al óvulo fecundado. Se engrosa durante el ciclo menstrual para que el embrión pueda crecer de forma adecuada.
             .col-lg-6
               .p-4.h-100.cont_arrow2(style="background-color:#6FE6F4;")
-                p.mb-0 #[strong Falopio:] son las glándulas sexuales femeninas secretoras de los óvulos.
+                p.mb-0 #[strong Ovarios:] son las glándulas sexuales femeninas secretoras de los óvulos.
         div
           figure.col-7.m-auto
             img(src="@/assets/curso/tema3/25.svg")
@@ -542,7 +549,7 @@
           .row.mt-5.m-auto
             .col-lg-6.m-auto
               .p-4.cont_arrow2(style="background-color:#6FE6F4;")
-                p.mb-0 #[strong Testículos:] producir de los gametos masculinos y las hormonas masculinas, principalmente la testosterona.
+                p.mb-0 #[strong Testículos:] producir los gametos masculinos y las hormonas masculinas, principalmente la testosterona.
 
     Separador.mt-5
 
@@ -618,7 +625,7 @@
       .py-3.py-md-4(titulo="Partes")
         .row.col-lg-11.m-auto
           .col-lg-5.mb-4.mb-lg-0
-            p Por los glóbulos blancos, de los cuales existen dos tipos.
+            p Está conformado por los glóbulos blancos, de los cuales existen dos tipos.
             ul.fa-ul.mt-3
               li.mb-2
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
@@ -727,12 +734,9 @@ export default {
   background-size: cover
   background-repeat: no-repeat
   background-position: center
-.infografia1 .img-infografica__item__numero, .img-infografica-b__item__numero
-  right: 55%
-  left: 70%
-.infografia1 .img-infografica__item__dot, .img-infografica-b__item__dot
-  width: 30px
-  height: 30px
+.infografia1 .img-infografica__item__dot
+  padding: 1.4rem
+  left: -16px
 .infografia1.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
   color: #12263F
 .bloque-texto-a.color-secundario
@@ -747,6 +751,9 @@ export default {
   height: 100%
   top: 0
   background-color: #F5FDFE
+.infografia2 .img-infografica__item__dot
+  padding: .9rem
+  left: -8px
 .infografia2.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
   color: #12263F
 .cont_arrow1, .cont_arrow2
@@ -786,4 +793,6 @@ export default {
   background-position: center
 .tabs-c.color-secundario .tabs-c__tab--active
   font-weight: bold
+.slydera1 .slyder-a__tipo-a .slyder-a__bullets
+  bottom: -20px
 </style>

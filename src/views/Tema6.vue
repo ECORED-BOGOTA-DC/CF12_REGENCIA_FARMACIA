@@ -26,7 +26,7 @@
       .col-lg-4.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 2
-          h5.mb-0(data-aos="fade-up") La farmacología espacial.
+          h5.mb-0(data-aos="fade-up") La farmacología especial.
     
     Separador.mt-5
 

@@ -56,13 +56,13 @@
           figure.col-6.m-auto
             img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up")
           h2.mt-5(data-aos="fade-up") Procariotas
-          p.mt-4.mb-0(data-aos="fade-up")  (bacteria y archea).
+          p.mt-4.mb-0(data-aos="fade-up")  Bacteria y arquea.
       .col-lg.p-0
         .p-4.pb-5.text-center(style="background-color:#99E4EE;border-radius:0px 20px 20px 0px;")
           figure.col-6.m-auto
             img(src="@/assets/curso/tema1/10.svg" data-aos="fade-up")
           h2.mt-5(data-aos="fade-up") Eucariotas
-          p.mt-4.mb-0(data-aos="fade-up") (protozoarios, hongos, plantas y animales).
+          p.mt-4.mb-0(data-aos="fade-up") Protozoarios, hongos, plantas y animales.
     
     p.mt-5(data-aos="fade-up") A continuación, se observan las diferencias entre estos tipos de células:
 
@@ -96,6 +96,8 @@
             td.p-4.text-center(style="border:0;") Asexual.
     
     p.mt-5(data-aos="fade-up") Luego de entender sus diferencias, se procede a estudiar la estructura y citología de cada una de ellas y, además, las funciones que cumplen las partes que la componen.
+
+    h4.mt-5(data-aos="zoom-in") Célula procariota 
 
     .col-lg-7.mt-5.m-auto
       ImagenInfografica.color-acento-botones
@@ -136,6 +138,8 @@
               img(src="@/assets/curso/tema1/12.svg" data-aos="fade-right" style="max-width:150px;display:inline;")
           .col-lg-9(style="place-self:center;")
             p.text-white.mb-0(data-aos="fade-left") Para ampliar la información sobre esta célula, se invita a ver el video #[em.text-white Partes de la célula procariota] que se encuentra en el material complementario.
+    
+    h4.mt-5(data-aos="zoom-in") Célula eucariota 
 
     .col-lg-10.m-auto.mt-5
       ImagenInfografica.color-acento-botones

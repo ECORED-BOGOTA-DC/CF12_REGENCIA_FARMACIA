@@ -15,8 +15,8 @@
       .col-lg-3(style="place-self:center;")
         .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#fff;width:170%;left:-70%;right: 0;border-radius:40px 40px 40px 0px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
           p Son dos ramas de la ciencia que proveen las bases necesarias para aprender con respecto a las estructuras y las funciones del cuerpo humano.
-          p.mt-4.p-3(style="border:2px #12263F dashed;border-radius:10px;") Anatomía. – (Ana -de aná, a través, y tomia de tomée, corte). Es la ciencia de las estructuras corporales y las relaciones entre ellas.
-          p.mt-4.p-3(style="border:2px #12263F dashed;border-radius:10px;") Fisiología. – (Fisio. -de physis, naturaleza, y logia, de logos, estudios). Es la ciencia que estudia las funciones corporales, es decir, cómo funcionan las distintas partes del cuerpo.
+          p.mt-4.p-3(style="border:2px #12263F dashed;border-radius:10px;") Anatomía. – (Ana -de #[em aná], a través, y tomia de #[em tomée], corte). Es la ciencia de las estructuras corporales y las relaciones entre ellas.
+          p.mt-4.p-3(style="border:2px #12263F dashed;border-radius:10px;") Fisiología. – (Fisio. -de #[em physis], naturaleza, y #[em logia], de #[em logos], estudios). Es la ciencia que estudia las funciones corporales, es decir, cómo funcionan las distintas partes del cuerpo.
     
     Separador.mt-5
 

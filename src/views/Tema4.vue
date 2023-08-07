@@ -19,14 +19,14 @@
     p.mt-5(data-aos="fade-up") A continuación, se puede observar de manera general la definición, objetivos de estudio y enfoque de la bioquímica:
 
     .mt-5.tarjeta.tarjeta--gris.p-4(style="border-radius:0px;background-color:#DEE4F0;")
-      SlyderA
+      SlyderA.slydera1
         div
-          .col-8.m-auto
+          .col-lg-8.m-auto
             figure
               img(src="@/assets/curso/tema4/3.svg")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Estructura general
         div
-          .col-8.m-auto
+          .col-lg-8.m-auto
             figure
               img(src="@/assets/curso/tema4/4.svg")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Generalidades
@@ -49,13 +49,13 @@
         div
           .col-10.m-auto
             figure
-              img(src="@/assets/curso/tema4/7.png")
+              img(src="@/assets/curso/tema4/7.svg")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:]  Las enfermedades tienen una base bioquímica, ya que se producen por las alteraciones en las micro y macromoléculas.
         div
           .col-7.m-auto
             figure
               img(src="@/assets/curso/tema4/8.svg")
-            figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Las enfermedades tienen una base bioquímica, ya que se producen por las alteraciones en las micro y macromoléculas.
+            figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Fármacos que contrarrestan los efectos fisiológicos.
     
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
@@ -186,4 +186,6 @@ export default {
   background-size: 700px
   background-position: right
   background-repeat: no-repeat
+.slydera1 .slyder-a__tipo-a .slyder-a__bullets
+  bottom: -20px
 </style>
