@@ -12,7 +12,7 @@
     .row
       .col-lg-2
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
-        p(data-aos="fade-up") El proceso de dispensación y distribución de un producto farmacéutico a un usuario o paciente implica una gran responsabilidad para el personal farmacéutico. Por este motivo, el conocimiento que se debe tener para llevar a cabo esta actividad de manera eficaz debe ser muy amplio y tener unas bases muy sólidas en temas relevantes relacionados con procesos biológicos, bioquímicos y fisiológicos que permitan entender todos los efectos y acciones farmacológicos de los fármacos en el organismo humano.
+        p(data-aos="fade-up") El proceso de dispensación y distribución de un producto farmacéutico a un usuario o paciente implica una gran responsabilidad para el personal farmacéutico. Por este motivo, para llevar a cabo esta actividad de manera eficaz, se debe tener un conocimiento y bases muy sólidos en temas relevantes relacionados con procesos biológicos, bioquímicos y fisiológicos que permitan entender todos los efectos y acciones farmacológicos de los fármacos en el organismo humano.
       .col-lg-4(style="place-self:center;")
         figure
           img(src="@/assets/curso/intro1.svg" data-aos="fade-left")

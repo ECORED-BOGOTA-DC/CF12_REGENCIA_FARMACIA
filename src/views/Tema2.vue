@@ -30,28 +30,28 @@
       .col-lg.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 1
-          h5.mb-0(data-aos="fade-up") Nivel químico (C, H, O, N, P).
+          h5.mb-0(data-aos="fade-up") Nivel químico (C, H, O, N, P)
       .col-lg.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 2
-          h5.mb-0(data-aos="fade-up") Nivel celular.
+          h5.mb-0(data-aos="fade-up") Nivel celular
       .col-lg.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 3
-          h5.mb-0(data-aos="fade-up") Nivel tisular.
+          h5.mb-0(data-aos="fade-up") Nivel tisular
     .row.m-auto.mt-lg-5
       .col-lg.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 4
-          h5.mb-0(data-aos="fade-up") Nivel de órganos.
+          h5.mb-0(data-aos="fade-up") Nivel de órganos
       .col-lg.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 5
-          h5.mb-0(data-aos="fade-up") Nivel de aparatos y sistemas.
+          h5.mb-0(data-aos="fade-up") Nivel de aparatos y sistemas
       .col-lg.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 6
-          h5.mb-0(data-aos="fade-up") Nivel de órganos.
+          h5.mb-0(data-aos="fade-up") Nivel de órganos
     
     p.mt-5(data-aos="fade-up") En la siguiente imagen se podrán observar la secuencia de este nivel de organización, que va desde lo más básico hasta lo más complejo:
     
