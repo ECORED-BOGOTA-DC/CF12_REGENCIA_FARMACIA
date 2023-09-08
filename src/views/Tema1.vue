@@ -14,7 +14,7 @@
         p.mt-4(data-aos="fade-up") Esta ciencia se enfoca en la estructura, composición y función celular, desde las propiedades más generales (compartidas por todas las células) hasta funciones específicas altamente complejas y propias de células especializadas.
       .col-lg-5
         figure
-          img(src="@/assets/curso/tema1/2.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema1/2.svg" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-up") La célula está diseñada para realizar funciones relacionadas con:
 
@@ -22,31 +22,31 @@
       .col-lg.mb-4.mb-lg-0
         .p-4.pt-5.pb-5.h-100.d-flex.justify-content-center.align-items-center.flex-wrap(style="background-color:#E4DDFA;border-bottom:4px #7E5EE3 solid;")
           figure.w-100.m-auto.text-center
-            img(src="@/assets/curso/tema1/3.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
+            img(src="@/assets/curso/tema1/3.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
           h3.mt-3(data-aos="zoom-in-up") Nutrición
       .col-lg.mb-4.mb-lg-0
         .p-4.pt-5.pb-5.h-100.d-flex.justify-content-center.align-items-center.flex-wrap(style="background-color:#E4DDFA;border-bottom:4px #7E5EE3 solid;")
           figure.w-100.m-auto.text-center
-            img(src="@/assets/curso/tema1/4.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
+            img(src="@/assets/curso/tema1/4.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
           h3.mt-3(data-aos="zoom-in-up") Reproducción
       .col-lg.mb-4.mb-lg-0
         .p-4.pt-5.pb-5.h-100.d-flex.justify-content-center.align-items-center.flex-wrap(style="background-color:#E4DDFA;border-bottom:4px #7E5EE3 solid;")
           figure.w-100.m-auto.text-center
-            img(src="@/assets/curso/tema1/5.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
+            img(src="@/assets/curso/tema1/5.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
           h3.mt-3(data-aos="zoom-in-up") Relación
     
     p.mt-5(data-aos="fade-up") Dichas funciones propias de los seres vivos, tiene su punto de partida a nivel celular. La fisiología celular es la encargada de este tipo de estudio. En el siguiente esquema podrán observar cómo se desarrollan cada una de estas funciones:
 
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
 
     p.mt-5(data-aos="fade-up") La célula es una estructura formada por tres elementos fundamentales:
 
     .cont_1_2.mt-5
       .col-lg-8.m-auto
         figure
-          img(src="@/assets/curso/tema1/8.svg" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema1/8.svg" data-aos="zoom-in-up" alt="Muestra foto de célula con sus tres elementos: 1. La membrana plasmática. 2. El citoplasma. 3. El núcleo")
     
     p.mt-5(data-aos="fade-up") Para poder entender su estructura, primero se debe conocer que existen dos tipos de células:
       
@@ -54,13 +54,13 @@
       .col-lg.p-0
         .p-4.pb-5.text-center(style="background-color:#E6F7FE;border-radius:20px 0px 0px 20px;")
           figure.col-6.m-auto
-            img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up")
+            img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up" alt="Imagen decorativa")
           h2.mt-5(data-aos="fade-up") Procariotas
           p.mt-4.mb-0(data-aos="fade-up")  Bacteria y arquea.
       .col-lg.p-0
         .p-4.pb-5.text-center(style="background-color:#99E4EE;border-radius:0px 20px 20px 0px;")
           figure.col-6.m-auto
-            img(src="@/assets/curso/tema1/10.svg" data-aos="fade-up")
+            img(src="@/assets/curso/tema1/10.svg" data-aos="fade-up" alt="Imagen decorativa")
           h2.mt-5(data-aos="fade-up") Eucariotas
           p.mt-4.mb-0(data-aos="fade-up") Protozoarios, hongos, plantas y animales.
     
@@ -103,7 +103,7 @@
       ImagenInfografica.color-acento-botones
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/tema1/11.svg' data-aos="zoom-in-up")
+            img(src='@/assets/curso/tema1/11.svg' data-aos="zoom-in-up" alt="Imagen de célula procariota, las partes que la componen se describen en la parte inferior de la imagen")
         .tarjeta.color-acento-botones.p-3(x="58%" y="5%" numero="" style="background-color:#E0D9F6;")
           .h5.mb-2(style="color:#12263F;") Pared celular
           p.mb-0(style="color:#12263F;") Su función es proteger a la célula. Actúa como protectora frente a agentes externos y el interior de la célula.
@@ -135,7 +135,7 @@
         .row.col-lg-10.m-auto
           .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema1/12.svg" data-aos="fade-right" style="max-width:150px;display:inline;")
+              img(src="@/assets/curso/tema1/12.svg" data-aos="fade-right" style="max-width:150px;display:inline;" alt="Imagen decorativa")
           .col-lg-9(style="place-self:center;")
             p.text-white.mb-0(data-aos="fade-left") Para ampliar la información sobre esta célula, se invita a ver el video #[em.text-white Partes de la célula procariota] que se encuentra en el material complementario.
     
@@ -145,7 +145,7 @@
       ImagenInfografica.color-acento-botones
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/tema1/13.svg' data-aos="zoom-in-up")
+            img(src='@/assets/curso/tema1/13.svg' data-aos="zoom-in-up" alt="Muestra imagen de Célula eucariota con todos sus componentes que se describen en la parte inferior de la imagen")
         .tarjeta.color-acento-botones.p-3(x="36%" y="3%" numero="" style="background-color:#E0D9F6;")
           .h5.mb-2(style="color:#12263F;") Cromosoma
           p.mb-0(style="color:#12263F;") Son moléculas de ADN con doble hélice que interactúan con proteínas. Están involucrados en los procesos de la mitosis (metafase).
@@ -188,7 +188,7 @@
         .row.col-lg-10.m-auto
           .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
             figure.text-center
-              img(src="@/assets/curso/tema1/14.svg" data-aos="fade-right" style="max-width:150px;display:inline;")
+              img(src="@/assets/curso/tema1/14.svg" data-aos="fade-right" style="max-width:150px;display:inline;" alt="Imagen decorativa")
           .col-lg-9(style="place-self:center;")
             p.text-white.mb-0(data-aos="fade-left") Para ver información complementaria relacionada con el “Panorama de las células animales y vegetales” se invita a ver el video que se encuentra en el material complementario.
     
@@ -224,7 +224,7 @@
               | Azufre (S).
       .col-lg.mb-4.mb-lg-0(style="place-self:center;")
         figure.h-100
-          img(src="@/assets/curso/tema1/15.png" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema1/15.png" data-aos="zoom-in-up" alt="Imagen decorativa")
       .col-lg.mb-4.mb-lg-0(style="place-self:center;")
         .p-4.cont_responsive2.h-100(data-aos="fade-left" style="background-color:#98E6F0;width:130%;right:0%;left:-30%;border-radius:0px 40px 40px 0px;position:relative;z-index:2;")
           p.mb-0.mt-5 Estos son parte de la conformación de las biomoléculas:
@@ -288,7 +288,7 @@
 
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/18.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema1/18.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
     
     Separador.mt-5
 
@@ -299,7 +299,7 @@
       .col-lg-1
       .col-lg-3.mb-4.mb-lg-0
         figure.text-center
-          img(src="@/assets/curso/tema1/20.svg" data-aos="fade-right" style="max-width:400px;display:inline;")
+          img(src="@/assets/curso/tema1/20.svg" data-aos="fade-right" style="max-width:400px;display:inline;" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") También conocida como división celular, es la etapa del ciclo donde la célula se divide para dar como resultado dos células hijas.
         p.mt-4(data-aos="fade-up") Este proceso ocurre en todas las formas de vida y garantiza la perpetuidad de su especie, y otras características como el crecimiento, la regeneración de tejidos y la reproducción en los seres pluricelulares.
@@ -310,17 +310,17 @@
       .col-lg.mb-4.mb-lg-0
         .p-4.pt-5.pb-5.h-100.d-flex.justify-content-center.align-items-center.flex-wrap(style="background-color:#CDEDFC;border-bottom:4px #00BCD4 solid;")
           figure.w-100.m-auto.text-center
-            img(src="@/assets/curso/tema1/21.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
+            img(src="@/assets/curso/tema1/21.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
           h3.mt-3(data-aos="zoom-in-up") Crecimiento
       .col-lg.mb-4.mb-lg-0
         .p-4.pt-5.pb-5.h-100.d-flex.justify-content-center.align-items-center.flex-wrap(style="background-color:#CDEDFC;border-bottom:4px #00BCD4 solid;")
           figure.w-100.m-auto.text-center
-            img(src="@/assets/curso/tema1/22.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
+            img(src="@/assets/curso/tema1/22.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
           h3.mt-3(data-aos="zoom-in-up") Maduración
       .col-lg.mb-4.mb-lg-0
         .p-4.pt-5.pb-5.h-100.d-flex.justify-content-center.align-items-center.flex-wrap(style="background-color:#CDEDFC;border-bottom:4px #00BCD4 solid;")
           figure.w-100.m-auto.text-center
-            img(src="@/assets/curso/tema1/23.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
+            img(src="@/assets/curso/tema1/23.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
           h3.mt-3(data-aos="zoom-in-up") Reproducción
     
     .row.mt-5
@@ -331,7 +331,7 @@
         p.mt-4(data-aos="fade-up") Los seres eucariotas, que poseen más de un cromosoma, como los seres humanos (que tienen la mitad de la información genética del padre y la otra de la madre) utilizan mecanismos de reproducción más complejos como los que se verán a continuación:
       .col-lg-4(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema1/24.svg" data-aos="fade-left" style="max-width:400px;display:inline;")
+          img(src="@/assets/curso/tema1/24.svg" data-aos="fade-left" style="max-width:400px;display:inline;" alt="Imagen decorativa")
     
     TabsC.color-secundario.mt-5
       .py-3.py-md-4(titulo="Diferencias mitosis / meiosis")
@@ -372,7 +372,7 @@
             p Etapas de la reproducción mitótica.
           .col-lg-8
             figure
-              img(src="@/assets/curso/tema1/25.svg")
+              img(src="@/assets/curso/tema1/25.svg" alt="Muestra imagen de las etapas de la reproducción mitótica que se describen en la parte inferior de la imagen")
       .py-3.py-md-4(titulo="Reproducción meiótica")
         .row.col-lg-11.m-auto
           .col-lg-4.mb-4.mb-lg-0
@@ -381,7 +381,7 @@
             p.mt-4 En el esquema se representan sus fases:
           .col-lg-8
             figure
-              img(src="@/assets/curso/tema1/26.svg")
+              img(src="@/assets/curso/tema1/26.svg" alt="Muestra fases de reproducción meiótica con fases: interfase, meiosis, cromosomas homólogos, núcleos hijos")
     
     Separador.mt-5
 
@@ -419,13 +419,13 @@
               | Su utilidad para el beneficio del ser humano. 
       .col-lg-9
         figure
-          img(src="@/assets/curso/tema1/27.jpg" data-aos="fade-left")        
+          img(src="@/assets/curso/tema1/27.jpg" data-aos="fade-left" alt="Imagen decorativa")        
     
     p.mt-5(data-aos="fade-up") Actualmente la botánica es una disciplina muy amplia que no solo se enfoca en el estudio de las plantas, sino que amplía sus intereses a nivel biotecnológico, genético y molecular, mediante los que se desarrollan otras especies de plantas y se racionaliza su uso en el ser humano.
     p.mt-4(data-aos="fade-up") En el siguiente esquema, se observan las ramas de la botánica y sus aplicaciones en los ámbitos de la ciencia:
 
     figure.mt-5
-      img(src="@/assets/curso/tema1/28.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema1/28.svg" data-aos="zoom-in-up" alt="Imagen que muestra las ramas de la botánica y aplicaciones, se describe parte inferior imagen")
 
     Separador.mt-5
 
@@ -439,7 +439,7 @@
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema1/30.svg' data-aos="zoom-in-up")
+              img(src='@/assets/curso/tema1/30.svg' data-aos="zoom-in-up" alt="Muestra niveles de organización que se explican debajo de la imagen")
           .tarjeta.color-acento-botones.p-3.pt-5.pb-5.text-center(x="11%" y="27%" numero="" style="background-color:#CDEDFC;border-top:5px #00BCD4 solid;border-radius:0px;")
             .h5.mb-2(style="color:#12263F;") Partículas subatómicas.
             p.mb-0(style="color:#12263F;")  Ejemplo: protones, neutrones y electrones. Son las partículas constituyentes del átomo.

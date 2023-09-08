@@ -11,7 +11,7 @@
       .col-lg-1
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/2.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema2/2.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-3(style="place-self:center;")
         .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#fff;width:170%;left:-70%;right: 0;border-radius:40px 40px 40px 0px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
           p Son dos ramas de la ciencia que proveen las bases necesarias para aprender con respecto a las estructuras y las funciones del cuerpo humano.
@@ -57,7 +57,7 @@
     
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in-up" alt="Muestra secuencia nivel estructural: átomo, molécula, macromolécula, organelo celular, célula, tejido, órgano, sistema  e individuo u organismo pluricelular")
 
     Separador.mt-5
 
@@ -97,7 +97,7 @@
                 | Sistemas de retroalimentación.
           .col-lg-5.text-center(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up")
+              img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
 
     Separador.mt-5
 
@@ -108,7 +108,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img(src="@/assets/curso/tema2/6.svg" data-aos="fade-right")
+            img(src="@/assets/curso/tema2/6.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-8
           .bloque-texto-a__texto.p-4.pt-5.pb-5
             p.mb-0(data-aos="fade-up") Para comprender los temas que se tratarán más adelante, es importante conocer e interiorizar la terminología básica relacionada con la anatomía y la fisiología.

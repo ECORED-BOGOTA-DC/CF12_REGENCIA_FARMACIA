@@ -10,7 +10,7 @@
     .cont_8_1.row.pt-5.pb-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema8/2.svg" data-aos="fade-right")
+          img(src="@/assets/curso/tema8/2.svg" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-1
       .col-lg-6(style="place-self:center;")
         p(data-aos="fade-up") La farmacología especial aborda un tema muy amplio relacionado con los grupos terapéuticos y farmacológicos, que abarcan cada uno de los sistemas del cuerpo humano.
@@ -81,7 +81,7 @@
       .row.col-lg-10.m-auto
         .col-lg-3.col-md-5.mb-md-0.mb-4(style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema8/3.svg" data-aos="fade-right")
+            img(src="@/assets/curso/tema8/3.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-9.col-md-7.mb-md-0.mb-4(style="place-self:center;")
           p(data-aos="fade-up") El objetivo de estudio es comprender qué tipo de fármacos se encuentran en cada uno de estos grupos, identificar sus indicaciones, acción terapéutica, contraindicaciones y reacciones adversas para lo cual se tendrá como documento de estudio el documento “Grupos terapéuticos”:
           a.anexo.mt-3.bg-white(:href="obtenerLink('downloads/Anexo2_CF012_Grupos_terapauticos.pdf')" target="_blank" data-aos="zoom-in-up")

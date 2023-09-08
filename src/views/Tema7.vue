@@ -10,7 +10,7 @@
     .cont_7_1.row
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema7/2.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema7/2.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-5(style="place-self:center;")
         p(data-aos="fade-up") Toda droga o mezcla de drogas, con o sin adición de sustancias auxiliares, preparada para ser presentada como formas farmacéuticas que se utiliza para la prevención, alivio, diagnóstico, tratamiento, curación o rehabilitación de las enfermedades del ser humano y de los animales.
 
@@ -38,7 +38,7 @@
     p.mt-5(data-aos="fade-up") En la siguiente imagen podrán observar de manera más amplia su clasificación:
 
     figure.mt-5
-      img(src="@/assets/curso/tema7/3.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema7/3.svg" data-aos="zoom-in-up" alt="Muestra diagrama con clasificación de fármacos que se detallan en la parte inferior de la imagen")
     
     Separador.mt-5
 
@@ -48,7 +48,7 @@
     .cont_7_2.row.pt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema7/5.svg" data-aos="fade-right")
+          img(src="@/assets/curso/tema7/5.svg" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-1
       .col-lg-6(style="place-self:center;")
         .bg-white.p-4(style="border:4px #12263F dashed;border-radius:20px;")
@@ -61,11 +61,11 @@
 
     .col-lg-8.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema7/6.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema7/6.svg" data-aos="zoom-in-up" alt="Muestra proceso de fármacos administrados via oral Fármaco  en:  Estómago Intestino delgado Intestino grueso heces Pasando por el proceso de  Absorción Distribución Metabolismo  Eliminación")
 
     .p-4.mt-5(style="background-color:#F7F6FE;")
       .row.col-lg-8.m-auto
-        .col-lg-4.col-md-6.mb-4.mb-md-0(style="place-self:center;")
+        .col-lg-4.col-md-6.mb-4.mb-md-0(style="place-self:center;" alt="Imagen decorativa")
           figure
             img(src="@/assets/curso/tema7/7.svg" data-aos="fade-right")
         .col-lg-8.col-md-6(style="place-self:center;")
@@ -86,12 +86,12 @@
     p(data-aos="fade-up") A continuación, se presenta un esquema general de las formas farmacéuticas y la clasificación de los diferentes productos farmacéuticos existentes:
 
     figure.mt-5
-      img(src="@/assets/curso/tema7/8.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema7/8.svg" data-aos="zoom-in-up" alt="Muestra clasificación de los diferentes productos farmacéuticos existentes que se describen en la parte inferior")
     
     .cont_7_3.mt-5.row.pt-4
       .col-lg-4.mb-4.mb-lg-0(style="place-self:end;")
         figure
-          img(src="@/assets/curso/tema7/9.svg" data-aos="fade-right")
+          img(src="@/assets/curso/tema7/9.svg" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8
         .col-lg-6.mb-5.m-auto
           .p-2(style="background-color:#81D4FA;" data-aos="fade-up")
@@ -129,7 +129,7 @@
       .row.col-lg-10.m-auto
         .col-lg-3.col-md-5.mb-md-0.mb-4(style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema7/10.svg" data-aos="fade-right")
+            img(src="@/assets/curso/tema7/10.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-9.col-md-7.mb-md-0.mb-4(style="place-self:center;")
           p(data-aos="fade-up") Para estudiar las formas farmacéuticas y los productos farmacéuticos que existen, se debe consultar el documento de apoyo “Formas farmacéuticas”.
           a.anexo.mt-3.bg-white(:href="obtenerLink('downloads/Anexo5_CF012_Formas_farmaceuticas.pptx')" target="_blank" data-aos="zoom-in-up")
