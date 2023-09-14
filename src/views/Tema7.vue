@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 7
       h1 Definición de medicamento
@@ -10,11 +10,11 @@
     .cont_7_1.row
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema7/2.png" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema7/2.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-5(style="place-self:center;")
         p(data-aos="fade-up") Toda droga o mezcla de drogas, con o sin adición de sustancias auxiliares, preparada para ser presentada como formas farmacéuticas que se utiliza para la prevención, alivio, diagnóstico, tratamiento, curación o rehabilitación de las enfermedades del ser humano y de los animales.
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_7_1 7.1 Clasificación de los medicamentos
@@ -40,7 +40,7 @@
     figure.mt-5
       img(src="@/assets/curso/tema7/3.svg" data-aos="zoom-in-up" alt="Muestra diagrama con clasificación de fármacos que se detallan en la parte inferior de la imagen")
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_7_2 7.2 Conceptos de farmacocinética y farmacodinamia
@@ -48,7 +48,7 @@
     .cont_7_2.row.pt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema7/5.svg" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema7/5.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-1
       .col-lg-6(style="place-self:center;")
         .bg-white.p-4(style="border:4px #12263F dashed;border-radius:20px;")
@@ -65,9 +65,9 @@
 
     .p-4.mt-5(style="background-color:#F7F6FE;")
       .row.col-lg-8.m-auto
-        .col-lg-4.col-md-6.mb-4.mb-md-0(style="place-self:center;" alt="Imagen decorativa")
+        .col-lg-4.col-md-6.mb-4.mb-md-0(style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema7/7.svg" data-aos="fade-right")
+            img(src="@/assets/curso/tema7/7.svg" data-aos="fade-right"  style="max-width:350px;margin:0 auto;" alt="Imagen decorativa")
         .col-lg-8.col-md-6(style="place-self:center;")
           p(data-aos="fade-up") Como apoyo adicional al esquema anterior, se invita a ver los siguientes videos ubicados en el material complementario:
           ul.fa-ul.mb-0.mt-3
@@ -78,7 +78,7 @@
               i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
               | Qué es la farmacodinamia: parámetros, farmacodinamia, receptores.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_7_3 7.3 Formas farmacéuticas y tipos de productos farmacéuticos
@@ -91,7 +91,7 @@
     .cont_7_3.mt-5.row.pt-4
       .col-lg-4.mb-4.mb-lg-0(style="place-self:end;")
         figure
-          img(src="@/assets/curso/tema7/9.svg" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema7/9.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-8
         .col-lg-6.mb-5.m-auto
           .p-2(style="background-color:#81D4FA;" data-aos="fade-up")
@@ -129,7 +129,7 @@
       .row.col-lg-10.m-auto
         .col-lg-3.col-md-5.mb-md-0.mb-4(style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema7/10.svg" data-aos="fade-right" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema7/10.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
         .col-lg-9.col-md-7.mb-md-0.mb-4(style="place-self:center;")
           p(data-aos="fade-up") Para estudiar las formas farmacéuticas y los productos farmacéuticos que existen, se debe consultar el documento de apoyo “Formas farmacéuticas”.
           a.anexo.mt-3.bg-white(:href="obtenerLink('downloads/Anexo5_CF012_Formas_farmaceuticas.pptx')" target="_blank" data-aos="zoom-in-up")

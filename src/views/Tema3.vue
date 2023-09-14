@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Fisiología por sistemas del cuerpo
@@ -10,12 +10,12 @@
     .row.cont_3_1
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/2.png" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/2.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-4(style="place-self:center;")
         .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#CDEDFC;width:130%;left:-50%;right:0;border-radius:40px 40px 0px 40px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
           p.mb-0.mt-4.mb-4 Los sistemas del cuerpo humano hacen referencia a los distintos conjuntos de órganos que lo componen, colaborando en cada caso con el cumplimiento de algún tipo específico de funciones. Visto así, el cuerpo puede comprenderse justamente como un conjunto simultáneo y yuxtapuesto de sistemas, cuyo correcto funcionamiento permite la vida.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_1 3.1 Sistema nervioso
@@ -27,7 +27,7 @@
           p.mb-0(data-aos="fade-up") #[strong El sistema nervioso] es uno de los sistemas más importantes y complejos del cuerpo humano. Tiene múltiples funciones, entre ellas recibir y procesar toda la información que proviene tanto del interior del cuerpo como del entorno, con el fin de regular el funcionamiento de los demás órganos y sistemas.
       .col-lg-5
         figure
-          img(src="@/assets/curso/tema3/3.svg" data-aos="fade-left" alt="Imagen decorativa") 
+          img(src="@/assets/curso/tema3/3.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;") 
     
     p.mt-5(data-aos="fade-up") El sistema nervioso se divide en el sistema nervioso central y el sistema nervioso periférico, como se muestra a continuación:
 
@@ -57,7 +57,7 @@
       .row(titulo="Sistema nervioso periférico")
         .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/tema3/5.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/tema3/5.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
         .col-lg-8(style="place-self:center;")
           p Conecta el sistema nervioso central con todos los órganos y tejidos del cuerpo (órganos receptores y efectores), está formado principalmente por nervios.
           p.mt-4 Se divide en sistema nervioso simpático y parasimpático, ambos controlados por estructuras del encéfalo.
@@ -72,7 +72,7 @@
       .row(titulo="Unidad funcional del sistema nervioso")
         .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/tema3/6.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/tema3/6.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
         .col-lg-8(style="place-self:center;")
           p La neurona es la principal célula nerviosa, que por lo general tiene forma irregular y cuenta con prolongaciones, la cuales se llaman axón.
           p.mt-4 Las partes de la neurona son:
@@ -99,7 +99,7 @@
               i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
               | Terminal del axón
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_2 3.2 Sistema cardiovascular 
@@ -107,12 +107,12 @@
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/7.svg" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/7.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") Se trata de un sistema de transporte en el que una bomba muscular (corazón), proporciona la energía necesaria para mover el contenido (sangre), en circuitos cerrados elásticos (los vasos).
         p.mt-4(data-aos="fade-up") A continuación, se presentan las partes del sistema cardiovascular:
     
-    .mt-5.tarjeta.tarjeta--gris.p-5(style="border-radius:0px;")
+    .mt-5.tarjeta.tarjeta--gris.p-4.p-lg-5(style="border-radius:0px;")
       SlyderA.bg-white.p-4
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
@@ -147,7 +147,7 @@
                 | Grupo de fibras que transportan impulsos eléctricos a través del centro del corazón. Si se bloquean generan problemas con los latidos del corazón.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema3/8.svg' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema3/8.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
             h4 Vasos sanguíneos
@@ -166,7 +166,7 @@
                 | #[strong Vena:] llevan la sangre desde los tejidos y órganos hasta el corazón y luego a los pulmones.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema3/9.svg' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema3/9.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
             h4 Sistema linfático
@@ -178,9 +178,9 @@
             p.mt-4 #[strong Linfa:] líquido transparente y acuoso rico en proteínas, sales, glucosa y otras sustancias.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema3/10.svg' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema3/10.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_3 3.3 Sistema respiratorio
@@ -188,7 +188,7 @@
     .row.cont_3_2.pt-4
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/12.png" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/12.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") Es un conjunto de órganos que llevan el aire (oxígeno) que se respira hacia el interior de las células para hacer posible el crecimiento y la actividad metabólica de las mismas.
         ul.lista-ul.mt-3
@@ -237,7 +237,7 @@
           .tarjeta.color-acento-botones.p-4(x="92%" y="87%" numero="" style="background-color:#E0D9F6;border-radius:0px;")
             p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Diafragma:] músculo que, a través de su contracción y allanamiento, favorece la inspiración y expiración.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_4 3.4 Sistema digestivo
@@ -262,7 +262,7 @@
               | Una óptima digestión, absorción y eliminación. 
       .col-lg-9(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/14.png" data-aos="fade-left" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/14.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
     p.mt-5(data-aos="fade-up") Las partes y funciones del sistema digestivo son:
 
@@ -298,13 +298,13 @@
         .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/tema3/17.svg" data-aos="fade-right" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/17.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-8
             .bloque-texto-a__texto.p-4
               p.fw-bold.mb-1(data-aos="fade-up") Cuidados del sistema digestivo
               p(data-aos="fade-up") Consumir fibra, frutas, verduras, tomar suficiente agua, moderar el consumo de alimentos grasos, evitar comidas abundantes .
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_5 3.5 Sistema endocrino
@@ -314,7 +314,7 @@
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/18.svg" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/18.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-6(style="place-self:center;")
         .cajon.color-primario.p-4.pb-5.pt-5(style="background-color:#F2FBFF;")
           p.mb-0(data-aos="fade-up") #[strong Sus funciones son:] controlar el estado de ánimo, desarrollo, crecimiento, reproducción y metabolismo a través de la secreción de las hormonas.
@@ -368,7 +368,7 @@
               .tarjeta.color-acento-botones.p-3(x="52%" y="46%" numero="8" style="background-color:#E0D9F6;border-radius:0px;")
                 p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Testículos:] producción de testosterona y gametos masculinos.
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_6 3.6 Sistema locomotor
@@ -409,7 +409,7 @@
                 | #[strong Peroné:] aporta estabilidad al tobillo y sirve para sujetar a los músculos en la pierna, soporta entre el 6 y el 17% del peso del cuerpo.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema3/20.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/20.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .tarjeta.color-secundario--borde.p-4(titulo="Articulaciones")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
@@ -451,7 +451,7 @@
                 | #[strong Articulación de tobillo:] permite movimientos de rotación, extensión y flexión.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema3/21.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/21.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .tarjeta.color-secundario--borde.p-4(titulo="Músculos")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
@@ -481,9 +481,9 @@
                 | #[strong Deltoides:] cualquier movimiento donde esté involucrado el levantamiento de peso.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema3/22.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/22.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_7 3.7 Sistema reproductor
@@ -505,7 +505,7 @@
                 p.mb-0 #[strong Trompas de Falopio:] transporte de los óvulos desde el ovario hasta el útero, lugar donde el espermatozoide fecunda el óvulo.
         div
           figure.col-7.m-auto
-            img(src="@/assets/curso/tema3/24.svg" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema3/24.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .row.mt-5
             .col-lg-6.mb-4.mb-lg-0
               .p-4.h-100.cont_arrow1(style="background-color:#D2C6F9;")
@@ -515,7 +515,7 @@
                 p.mb-0 #[strong Ovarios:] son las glándulas sexuales femeninas secretoras de los óvulos.
         div
           figure.col-7.m-auto
-            img(src="@/assets/curso/tema3/25.svg" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema3/25.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .row.mt-5
             .col-lg-6.mb-4.mb-lg-0
               .p-4.h-100.cont_arrow1(style="background-color:#D2C6F9;")
@@ -535,7 +535,7 @@
                 p.mb-0 #[strong Próstata:] producción del semen. 
         div
           figure.col-6.m-auto
-            img(src="@/assets/curso/tema3/27.svg" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema3/27.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .row.mt-5
             .col-lg-6.mb-4.mb-lg-0
               .p-4.h-100.cont_arrow1(style="background-color:#D2C6F9;")
@@ -545,13 +545,13 @@
                 p.mb-0 #[strong Conductos seminales:] tubos de almacén de espermatozoides y transporte del esperma fuera de la bolsa del escroto.
         div
           figure.col-6.m-auto
-            img(src="@/assets/curso/tema3/28.svg" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema3/28.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .row.mt-5.m-auto
             .col-lg-6.m-auto
               .p-4.cont_arrow2(style="background-color:#6FE6F4;")
                 p.mb-0 #[strong Testículos:] producir los gametos masculinos y las hormonas masculinas, principalmente la testosterona.
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_8 3.8 Sistema tegumentario
@@ -590,7 +590,7 @@
             figure
               img(src='@/assets/curso/tema3/30.svg' alt="Muestra estructura de la uña con los textos que se relacionan en la parte inferior")
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_3_9 3.9 Sistema inmunológico
@@ -598,7 +598,7 @@
     .cont_3_5.row.pt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/32.svg" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/32.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-6(style="place-self:center;")
         .bg-white.p-4(style="border:3px #12263F dashed;border-radius:15px;")
           p.mb-0(data-aos="fade-up") Este sistema recibe varios nombres: inmunitario, inmunológico o inmune, debido a que es un mecanismo de defensa del organismo, cuyo objetivo es mantenerlo libre de agentes extraños nocivos, como toxinas, venenos o infecciones virales, bacterianas y de otros microorganismos, conocidos como antígenos.
@@ -621,7 +621,7 @@
                 | #[strong Sistema inmune adquirido:] se adapta y posee una “memoria” celular para reconocer los agentes infecciosos con los que ya ha combatido, de modo que puede lidiar mejor con ellos en el futuro.
           .col-lg-7
             figure
-              img(src="@/assets/curso/tema3/33.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/33.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .py-3.py-md-4(titulo="Partes")
         .row.col-lg-11.m-auto
           .col-lg-5.mb-4.mb-lg-0
@@ -635,7 +635,7 @@
                 | #[strong  Los fagocitos] que literalmente son los encargados de fagocitar los agentes extraños.
           .col-lg-7
             figure
-              img(src="@/assets/curso/tema3/34.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/34.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .py-3.py-md-4(titulo="Enfermedades")
         .row.col-lg-11.m-auto
           .col-lg-5.mb-4.mb-lg-0
@@ -652,7 +652,7 @@
                 | #[strong  Enfermedades inmunosupresoras:] agentes que atacan las defensas del organismo. 
           .col-lg-7
             figure
-              img(src="@/assets/curso/tema3/35.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema3/35.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .py-3.py-md-4(titulo="Estructuras")
         .row.col-lg-11.m-auto
           .col-lg-5.mb-4.mb-lg-0

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Bioquímica
@@ -14,7 +14,7 @@
       .col-lg-1
       .col-lg-3(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema4/2.png" data-aos="fade-left" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema4/2.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
     p.mt-5(data-aos="fade-up") A continuación, se puede observar de manera general la definición, objetivos de estudio y enfoque de la bioquímica:
 
@@ -44,17 +44,17 @@
               figure
                 img(src="@/assets/curso/tema4/5.svg" style="max-width:300px;display:inline;position:relative;margin-right:20px;margin-top:-20px;" alt="Imagen decorativa")
             figure.mt-4
-              img(src="@/assets/curso/tema4/6.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema4/6.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Relación con la medicina y la salud.
         div
           .col-10.m-auto
             figure
-              img(src="@/assets/curso/tema4/7.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema4/7.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:]  Las enfermedades tienen una base bioquímica, ya que se producen por las alteraciones en las micro y macromoléculas.
         div
           .col-7.m-auto
             figure
-              img(src="@/assets/curso/tema4/8.svg" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema4/8.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Fármacos que contrarrestan los efectos fisiológicos.
     
     .row.mt-5
@@ -63,7 +63,7 @@
           p.mb-0.mt-4.mb-4 Así mismo, es importante identificar los principales elementos y compuestos químicos del cuerpo humano, con el objetivo de entender los diferentes procesos que este realiza para desarrollar sus funciones de forma equilibrada y en completa armonía.
       .col-lg-7(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema4/9.png" data-aos="fade-left" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema4/9.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
     p.mt-5(data-aos="fade-up") A continuación, se muestran los componentes (biomoléculas) más importantes para que dichos procesos se lleven a cabo y sus funciones en el organismo.
 

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Farmacología
@@ -14,7 +14,7 @@
           p.mb-0(data-aos="fade-up") Rama de la medicina, la biología y las ciencias farmacéuticas que estudia la historia, el origen, las propiedades biofisicoquímicas, la presentación, los efectos fisiológicos, los mecanismos de acción, la absorción, la distribución, la biotransformación, la excreción y el uso terapéutico, entre otras actividades biológicas, de las sustancias químicas que interactúan con los organismos vivos. La farmacología estudia cómo interactúa el fármaco con el organismo, sus acciones, efectos y propiedades. En un sentido más estricto, se considera la farmacología como el estudio de los fármacos, sea que esas tengan efectos beneficiosos o bien tóxicos. La farmacología tiene aplicaciones clínicas cuando las sustancias son utilizadas en el diagnóstico, prevención y tratamiento de una enfermedad o para el alivio de sus síntomas (Brunton, Lazo y Parker, 2006).  
       .col-lg-6(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema6/1.png" data-aos="fade-left" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema6/1.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
     p.mt-5(data-aos="fade-up") Se abordará la farmacología desde dos campos generales:
 
@@ -28,7 +28,7 @@
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 2
           h5.mb-0(data-aos="fade-up") La farmacología especial.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_6_1 6.1 Farmacología general
@@ -64,7 +64,7 @@
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Farmacología
             td.p-4(style="border:0;") Ciencia que estudia la actividad de los fármacos. La farmacología clínica estudia dicha actividad en el hombre.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_6_2 6.2 Disciplinas de la farmacología
@@ -72,18 +72,18 @@
     p(data-aos="fade-up") La farmacología tiene diferentes ramas de estudio de las que se destacan las siguientes:
 
     .tarjeta.tarjeta--gris.p-4.pt-1
-      PasosB.color-acento-contenido.mt-5
+      LineaTiempoC.color-acento-contenido.mt-5
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/2.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/2.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Farmacognosia
             p Estudia el origen, caracteres estructura anatómica y química de las drogas naturales.
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/3.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/3.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Farmacocinética
             p Estudia la absorción, distribución, biotransformación y la eliminación de las drogas.
@@ -95,7 +95,7 @@
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/4.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/4.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Farmacodinamia
             p Es el estudio de los efectos bioquímicos, fisiológicos y los mecanismos de acción de los fármacos.
@@ -107,47 +107,47 @@
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/5.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/5.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Farmacotecnia
             p Tiene que ver con la preparación y distribución de las drogas.
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/6.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/6.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Farmacoterapia
             p Se ocupa del uso de fármacos destinados a evitar y tratar enfermedades.
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/7.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/7.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Farmacología clínica
             p Estudia las acciones farmacológicas en el ser humano sano o enfermo, así como la evaluación de las drogas en el tratamiento de las enfermedades.
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/8.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/8.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Farmacología molecular
             p Estudia las interacciones del fármaco con el organismo.
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/9.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/9.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Toxicología
             p Estudia los venenos y los efectos adversos de los medicamentos.
         .row(titulo="")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema6/10.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema6/10.png' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           .col-lg-6
             h3 Farmacometría
             p Estudia la relación que existe entre la dosis administrada de un fármaco y la magnitud del resultado obtenido.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_6_3 6.3 Tipos de acción farmacológica 
@@ -162,7 +162,7 @@
             p #[strong Aumento de la función] de las células de un órgano o sistema del organismo.
           .col-lg-7
             figure
-              img(src="@/assets/curso/tema6/11.png" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema6/11.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .tarjeta.color-secundario--borde.p-4(titulo="Depresión")
         .row
           .col-lg-5.mb-4.mb-lg-0
@@ -170,7 +170,7 @@
             p #[strong Disminución de la función] de las células de un órgano o sistema del organismo.
           .col-lg-7
             figure
-              img(src="@/assets/curso/tema6/12.png" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema6/12.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .tarjeta.color-secundario--borde.p-4(titulo="Irritación")
         .row
           .col-lg-5.mb-4.mb-lg-0
@@ -178,7 +178,7 @@
             p #[strong Estimulación violenta] de las células, órgano y sistema con alteraciones de la nutrición, crecimiento y morfología de las células.
           .col-lg-7
             figure
-              img(src="@/assets/curso/tema6/13.png" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema6/13.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .tarjeta.color-secundario--borde.p-4(titulo="Reemplazo")
         .row
           .col-lg-5.mb-4.mb-lg-0
@@ -186,7 +186,7 @@
             p #[strong Sustitución de una secreción] que falta en el organismo por la hormona correspondiente.
           .col-lg-7
             figure
-              img(src="@/assets/curso/tema6/14.png" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema6/14.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .tarjeta.color-secundario--borde.p-4(titulo="Antiinfecciosa")
         .row
           .col-lg-5.mb-4.mb-lg-0
@@ -194,9 +194,9 @@
             p #[strong Atenuar o destruir] a los microorganismos productores de infecciones en el ser humano.
           .col-lg-7
             figure
-              img(src="@/assets/curso/tema6/15.png" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema6/15.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_6_4 6.4 Nomenclatura
@@ -223,7 +223,7 @@
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Comercial
             td.p-4(style="border:0;") Nombre propuesto por el fabricante equivalente a la marca registrada del medicamento; puede estar conformado por uno o varios fármacos.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_6_5 6.5 Información técnica de los medicamentos
@@ -276,9 +276,12 @@
 </template>
 
 <script>
+import LineaTiempoC from '../components/LineaTiempoC.vue'
 export default {
   name: 'Tema6',
-  components: {},
+  components: {
+    LineaTiempoC,
+  },
   data: () => ({
     // variables de vue
   }),

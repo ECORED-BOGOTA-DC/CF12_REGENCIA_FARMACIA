@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Biología celular
@@ -14,7 +14,7 @@
         p.mt-4(data-aos="fade-up") Esta ciencia se enfoca en la estructura, composición y función celular, desde las propiedades más generales (compartidas por todas las células) hasta funciones específicas altamente complejas y propias de células especializadas.
       .col-lg-5
         figure
-          img(src="@/assets/curso/tema1/2.svg" data-aos="fade-left" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema1/2.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
     p.mt-5(data-aos="fade-up") La célula está diseñada para realizar funciones relacionadas con:
 
@@ -39,7 +39,7 @@
 
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+        img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
 
     p.mt-5(data-aos="fade-up") La célula es una estructura formada por tres elementos fundamentales:
 
@@ -54,13 +54,13 @@
       .col-lg.p-0
         .p-4.pb-5.text-center(style="background-color:#E6F7FE;border-radius:20px 0px 0px 20px;")
           figure.col-6.m-auto
-            img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           h2.mt-5(data-aos="fade-up") Procariotas
           p.mt-4.mb-0(data-aos="fade-up")  Bacteria y arquea.
       .col-lg.p-0
         .p-4.pb-5.text-center(style="background-color:#99E4EE;border-radius:0px 20px 20px 0px;")
           figure.col-6.m-auto
-            img(src="@/assets/curso/tema1/10.svg" data-aos="fade-up" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema1/10.svg" data-aos="fade-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
           h2.mt-5(data-aos="fade-up") Eucariotas
           p.mt-4.mb-0(data-aos="fade-up") Protozoarios, hongos, plantas y animales.
     
@@ -192,8 +192,8 @@
           .col-lg-9(style="place-self:center;")
             p.text-white.mb-0(data-aos="fade-left") Para ver información complementaria relacionada con el “Panorama de las células animales y vegetales” se invita a ver el video que se encuentra en el material complementario.
     
-    Separador.mt-5
-
+    Separador
+    
     .titulo-segundo
       h2#t_1_1 1.1 Biomoléculas 
     
@@ -224,7 +224,7 @@
               | Azufre (S).
       .col-lg.mb-4.mb-lg-0(style="place-self:center;")
         figure.h-100
-          img(src="@/assets/curso/tema1/15.png" data-aos="zoom-in-up" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema1/15.png" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg.mb-4.mb-lg-0(style="place-self:center;")
         .p-4.cont_responsive2.h-100(data-aos="fade-left" style="background-color:#98E6F0;width:130%;right:0%;left:-30%;border-radius:0px 40px 40px 0px;position:relative;z-index:2;")
           p.mb-0.mt-5 Estos son parte de la conformación de las biomoléculas:
@@ -288,9 +288,9 @@
 
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/18.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+        img(src="@/assets/curso/tema1/18.svg" data-aos="zoom-in-up" alt="Imagen decorativa"  style="max-width:350px;margin:0 auto;")
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_1_2 1.2 Reproducción celular
@@ -383,7 +383,7 @@
             figure
               img(src="@/assets/curso/tema1/26.svg" alt="Muestra fases de reproducción meiótica con fases: interfase, meiosis, cromosomas homólogos, núcleos hijos")
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_1_3 1.3 Botánica
@@ -419,7 +419,7 @@
               | Su utilidad para el beneficio del ser humano. 
       .col-lg-9
         figure
-          img(src="@/assets/curso/tema1/27.jpg" data-aos="fade-left" alt="Imagen decorativa")        
+          img(src="@/assets/curso/tema1/27.jpg" data-aos="fade-left" alt="Imagen decorativa"  style="max-width:350px;margin:0 auto;")        
     
     p.mt-5(data-aos="fade-up") Actualmente la botánica es una disciplina muy amplia que no solo se enfoca en el estudio de las plantas, sino que amplía sus intereses a nivel biotecnológico, genético y molecular, mediante los que se desarrollan otras especies de plantas y se racionaliza su uso en el ser humano.
     p.mt-4(data-aos="fade-up") En el siguiente esquema, se observan las ramas de la botánica y sus aplicaciones en los ámbitos de la ciencia:
@@ -427,7 +427,7 @@
     figure.mt-5
       img(src="@/assets/curso/tema1/28.svg" data-aos="zoom-in-up" alt="Imagen que muestra las ramas de la botánica y aplicaciones, se describe parte inferior imagen")
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_1_4 1.4 Niveles de organización

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Fitoquímica
@@ -10,7 +10,7 @@
     .row.col-lg-10.m-auto
       .col-lg.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema5/1.png" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema5/1.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg.p-0(style="place-self:center;")
         .p-4.pt-5.pb-5(style="background-color:#D3EFFC;" data-aos="zoom-in-up")
           p Es la disciplina científica que estudia los metabolitos de origen vegetal y tiene como propósito:
@@ -30,7 +30,7 @@
           p.mt-3.mb-0 Es necesario que cuando se aíslen estos metabolitos no solo se comprueben sus características químicas, sino también su actividad biológica comprobada.
       .col-lg.p-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema5/2.png" data-aos="fade-left" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema5/2.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     
     p.mt-5(data-aos="fade-up") A continuación, se muestra información relacionada con los metabolitos:
     
@@ -53,7 +53,7 @@
                   p.mb-0 Se enfocan en el desarrollo, fotosíntesis y en la respiración de la planta.
               .col-lg-7
                 figure
-                  img(src="@/assets/curso/tema5/3.svg" alt="Imagen decorativa")
+                  img(src="@/assets/curso/tema5/3.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
             .row.mt-5
               .col-lg-5.mb-4.mb-lg-0
                 .p-3.cont_circulo.ps-5.cont_circulo2(style="background-color:#F2EEFC;position:relative;")
@@ -69,7 +69,7 @@
                       | #[strong Nitrogenados:] síntesis para la industria química (cafeína, entre otros ejemplos).
               .col-lg-7
                 figure
-                  img(src="@/assets/curso/tema5/4.svg" alt="Imagen decorativa")
+                  img(src="@/assets/curso/tema5/4.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .py-3.py-md-4(titulo="Cantidad en las plantas")
         .row.col-lg-11.m-auto
           .col-lg-4.mb-4.mb-lg-0
@@ -141,7 +141,7 @@
                 | Animal.
         .col-lg-9(style="place-self:center;")
           figure
-            img(src="@/assets/curso/tema5/8.png" data-aos="fade-left" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema5/8.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
 
 
 

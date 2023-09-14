@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Anatomía y fisiología
@@ -11,14 +11,14 @@
       .col-lg-1
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/2.png" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema2/2.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-3(style="place-self:center;")
         .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#fff;width:170%;left:-70%;right: 0;border-radius:40px 40px 40px 0px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
           p Son dos ramas de la ciencia que proveen las bases necesarias para aprender con respecto a las estructuras y las funciones del cuerpo humano.
           p.mt-4.p-3(style="border:2px #12263F dashed;border-radius:10px;") Anatomía. – (Ana -de #[em aná], a través, y tomia de #[em tomée], corte). Es la ciencia de las estructuras corporales y las relaciones entre ellas.
           p.mt-4.p-3(style="border:2px #12263F dashed;border-radius:10px;") Fisiología. – (Fisio. -de #[em physis], naturaleza, y #[em logia], de #[em logos], estudios). Es la ciencia que estudia las funciones corporales, es decir, cómo funcionan las distintas partes del cuerpo.
     
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_2_1 2.1 Niveles de organización estructural
@@ -59,7 +59,7 @@
       figure
         img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in-up" alt="Muestra secuencia nivel estructural: átomo, molécula, macromolécula, organelo celular, célula, tejido, órgano, sistema  e individuo u organismo pluricelular")
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_2_2 2.2 Características del órgano humano vivo
@@ -97,9 +97,9 @@
                 | Sistemas de retroalimentación.
           .col-lg-5.text-center(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+              img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
 
-    Separador.mt-5
+    Separador
 
     .titulo-segundo
       h2#t_2_3 2.3 Terminología
@@ -108,7 +108,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img(src="@/assets/curso/tema2/6.svg" data-aos="fade-right" alt="Imagen decorativa")
+            img(src="@/assets/curso/tema2/6.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
         .col-lg-8
           .bloque-texto-a__texto.p-4.pt-5.pb-5
             p.mb-0(data-aos="fade-up") Para comprender los temas que se tratarán más adelante, es importante conocer e interiorizar la terminología básica relacionada con la anatomía y la fisiología.
