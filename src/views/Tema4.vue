@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 4
       h1 Bioquímica
-    
     .row.cont_4_1
       .col-lg-1
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
@@ -15,9 +14,7 @@
       .col-lg-3(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema4/2.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
     p.mt-5(data-aos="fade-up") A continuación, se puede observar de manera general la definición, objetivos de estudio y enfoque de la bioquímica:
-
     .mt-5.tarjeta.tarjeta--gris.p-4(style="border-radius:0px;background-color:#DEE4F0;")
       SlyderA.slydera1
         div
@@ -56,7 +53,6 @@
             figure
               img(src="@/assets/curso/tema4/8.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Fármacos que contrarrestan los efectos fisiológicos.
-    
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         .p-4.cont_responsive1(data-aos="fade-right" style="background-color:#CDEDFC;width:100%;right:-20%;border-radius:40px 40px 0px 40px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
@@ -64,13 +60,10 @@
       .col-lg-7(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema4/9.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
     p.mt-5(data-aos="fade-up") A continuación, se muestran los componentes (biomoléculas) más importantes para que dichos procesos se lleven a cabo y sus funciones en el organismo.
-
     .titulo-sexto.color-acento-botones.mt-5
       h5.d-block Tabla 3
       span #[em Importancia de las biomoléculas en el organismo]
-    
     .tabla-a.color-acento-botones.mt-4
       table
         tbody
@@ -126,32 +119,25 @@
                 li
                   i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
                   | Fuente principal de energía para las funciones del cuerpo humano.
-    
     p.mt-5(data-aos="fade-up") Como apoyo, y para complementar esta información, se invita al aprendiz a consultar los procesos de cada uno de los bioelementos en los siguientes videos ubicados en el material complementario:
-
     .tarjeta-avatar-b.mt-5.col-lg-8.m-auto
       .tarjeta-avatar-b__img
         img(src='@/assets/curso/tema4/10.svg')
       .tarjeta.tarjeta.d-flex.align-items-center(style="background-color:#F1EEFC;border-radius:70px;")
         .p-4
           p.mb-0(data-aos="fade-up") #[em Introducción al metabolismo de carbohidratos.]
-    
     .tarjeta-avatar-b.mt-4.col-lg-8.m-auto
       .tarjeta-avatar-b__img
         img(src='@/assets/curso/tema4/11.svg')
       .tarjeta.tarjeta.d-flex.align-items-center(style="background-color:#F1EEFC;border-radius:70px;")
         .p-4
           p.mb-0(data-aos="fade-up") #[em Metabolismo de los ácidos nucleicos.]
-    
     .tarjeta-avatar-b.mt-4.col-lg-8.m-auto
       .tarjeta-avatar-b__img
         img(src='@/assets/curso/tema4/12.svg')
       .tarjeta.tarjeta.d-flex.align-items-center(style="background-color:#F1EEFC;border-radius:70px;")
         .p-4
           p.mb-0(data-aos="fade-up") #[em Síntesis de proteínas: transcripción y traducción. Nivel principiante.]
-
-
-    
    
 </template>
 

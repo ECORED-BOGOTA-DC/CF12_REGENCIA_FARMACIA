@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 3
       h1 Fisiología por sistemas del cuerpo
-    
     .row.cont_3_1
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -14,12 +13,9 @@
       .col-lg-4(style="place-self:center;")
         .p-4.cont_responsive2(data-aos="fade-left" style="background-color:#CDEDFC;width:130%;left:-50%;right:0;border-radius:40px 40px 0px 40px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
           p.mb-0.mt-4.mb-4 Los sistemas del cuerpo humano hacen referencia a los distintos conjuntos de órganos que lo componen, colaborando en cada caso con el cumplimiento de algún tipo específico de funciones. Visto así, el cuerpo puede comprenderse justamente como un conjunto simultáneo y yuxtapuesto de sistemas, cuyo correcto funcionamiento permite la vida.
-    
     Separador
-
     .titulo-segundo
       h2#t_3_1 3.1 Sistema nervioso
-
     .row
       .col-lg-1
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
@@ -28,14 +24,12 @@
       .col-lg-5
         figure
           img(src="@/assets/curso/tema3/3.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;") 
-    
     p.mt-5(data-aos="fade-up") El sistema nervioso se divide en el sistema nervioso central y el sistema nervioso periférico, como se muestra a continuación:
-
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Sistema nervioso central")
         .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/tema3/4.svg' alt="Muestra imagen de cerebelo identificando en diferentes colores sus partes : lóbulo temporal,  lóbulo frontal, lóbulo parietal, lóbulo occipital, cerebelo, medula espinal")
+            img(src='@/assets/curso/tema3/4.svg' style="width:350px" alt="Muestra imagen de cerebelo identificando en diferentes colores sus partes : lóbulo temporal,  lóbulo frontal, lóbulo parietal, lóbulo occipital, cerebelo, medula espinal").m-auto
         .col-lg-8(style="place-self:center;")
           p Analiza y procesa la información que llega desde los órganos receptores y da una respuesta para que ejecuten los órganos efectores, está conformado por el encéfalo y la médula espinal, que están protegidos por la médula craneana y las vértebras respectivamente. Están rodeados por tres membranas (meninges), se divide en:
           ul.fa-ul.mt-3
@@ -57,7 +51,7 @@
       .row(titulo="Sistema nervioso periférico")
         .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src='@/assets/curso/tema3/5.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+            img(src='@/assets/curso/tema3/5.svg' alt="Imagen decorativa" style="max-width:350px").m-auto
         .col-lg-8(style="place-self:center;")
           p Conecta el sistema nervioso central con todos los órganos y tejidos del cuerpo (órganos receptores y efectores), está formado principalmente por nervios.
           p.mt-4 Se divide en sistema nervioso simpático y parasimpático, ambos controlados por estructuras del encéfalo.
@@ -147,7 +141,7 @@
                 | Grupo de fibras que transportan impulsos eléctricos a través del centro del corazón. Si se bloquean generan problemas con los latidos del corazón.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema3/8.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src='@/assets/curso/tema3/8.svg' alt="Imagen decorativa" style="max-width:200px;margin:0 auto;")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
             h4 Vasos sanguíneos
@@ -166,7 +160,7 @@
                 | #[strong Vena:] llevan la sangre desde los tejidos y órganos hasta el corazón y luego a los pulmones.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema3/9.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src='@/assets/curso/tema3/9.svg' alt="Imagen decorativa" style="max-width:300px;margin:0 auto;")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
             h4 Sistema linfático
@@ -178,13 +172,10 @@
             p.mt-4 #[strong Linfa:] líquido transparente y acuoso rico en proteínas, sales, glucosa y otras sustancias.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema3/10.svg' alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
+              img(src='@/assets/curso/tema3/10.svg' alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
     Separador
-
     .titulo-segundo
       h2#t_3_3 3.3 Sistema respiratorio
-    
     .row.cont_3_2.pt-4
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -212,9 +203,7 @@
             | Atrapar y disolver los coágulos de sangre que se formen en las venas.
         .cajon.color-secundario.p-4.mt-4(style="background-color:#F2EEFC;")
           p.mb-0(data-aos="fade-up") #[strong La respiración] es un proceso involuntario y automático, en el que se extrae el oxígeno del aire inspirado y se expulsan los desechos en el aire expulsado. Consiste en tomar oxígeno (O#[sub 2]) y expulsar el dióxido de carbono producido a nivel celular (CO#[sub 2]).
-    
     p.mt-5(data-aos="fade-up") A continuación, se muestran las partes del sistema respiratorio y sus funciones:
-
     .col-lg-10.mt-5.m-auto
       ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
@@ -236,12 +225,9 @@
             p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Pulmones:] son dos órganos de una coloración rojiza donde se realizan la oxigenación de la sangre, que luego irá a todos los órganos del cuerpo.
           .tarjeta.color-acento-botones.p-4(x="92%" y="87%" numero="" style="background-color:#E0D9F6;border-radius:0px;")
             p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Diafragma:] músculo que, a través de su contracción y allanamiento, favorece la inspiración y expiración.
-    
     Separador
-
     .titulo-segundo
       h2#t_3_4 3.4 Sistema digestivo
-    
     .row
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
         .p-4.cont_responsive1(data-aos="fade-right" style="background-color:#CDEDFC;width:140%;right:-30%;border-radius:40px 40px 0px 40px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
@@ -263,9 +249,7 @@
       .col-lg-9(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema3/14.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
     p.mt-5(data-aos="fade-up") Las partes y funciones del sistema digestivo son:
-
     .cont_3_3.mt-5
       .col-lg-4.m-auto
         ImagenInfografica.infografia1.color-acento-botones
@@ -292,7 +276,6 @@
             p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Recto:] recibe las sustancias de desecho (heces) para expulsarlas a través del ano.
           .tarjeta.color-acento-botones.p-4(x="48.5%" y="93%" numero="6" style="background-color:#E0D9F6;border-radius:0px;")
             p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Ano:] orificio al final del tubo digestivo, por donde los materiales de desecho salen del organismo.
-
     .col-lg-10.m-auto.mt-5
       .bloque-texto-a.color-secundario
         .row.m-0.align-items-center.justify-content-between
@@ -302,15 +285,11 @@
           .col-lg-8
             .bloque-texto-a__texto.p-4
               p.fw-bold.mb-1(data-aos="fade-up") Cuidados del sistema digestivo
-              p(data-aos="fade-up") Consumir fibra, frutas, verduras, tomar suficiente agua, moderar el consumo de alimentos grasos, evitar comidas abundantes .
-
+              p(data-aos="fade-up") Consumir fibra, frutas, verduras, tomar suficiente agua, moderar el consumo de alimentos grasos, evitar comidas abundantes.
     Separador
-
     .titulo-segundo
       h2#t_3_5 3.5 Sistema endocrino
-    
     p(data-aos="fade-up") Llamado también sistema de glándulas de secreción, compuesto por órganos de tejido que secretan hormonas.
-
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -318,9 +297,7 @@
       .col-lg-6(style="place-self:center;")
         .cajon.color-primario.p-4.pb-5.pt-5(style="background-color:#F2FBFF;")
           p.mb-0(data-aos="fade-up") #[strong Sus funciones son:] controlar el estado de ánimo, desarrollo, crecimiento, reproducción y metabolismo a través de la secreción de las hormonas.
-    
     p.mt-5(data-aos="fade-up") Las partes y funciones del sistema endocrino son:
-
     .cont_3_4.mt-5.pt-5.pb-5
       .col-xl-10.m-auto
         .row
@@ -345,7 +322,6 @@
                 p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas adrenales:] participan en la regulación de los latidos del corazón y la presión arterial.
               .tarjeta.color-acento-botones.p-3(x="41%" y="43%" numero="8" style="background-color:#E0D9F6;border-radius:0px;")
                 p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Ovarios:] cumple una función importante en el desarrollo de las características femeninas, forma del cuerpo, vello y mamas; allí se forman los óvulos y los estrógenos.
-
           .col-lg.mb-5.mb-lg-0
             ImagenInfografica.color-acento-botones.infografia2
               template(v-slot:imagen)
@@ -367,15 +343,11 @@
                 p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Glándulas adrenales:] participan en la regulación de los latidos del corazón y la presión arterial.
               .tarjeta.color-acento-botones.p-3(x="52%" y="46%" numero="8" style="background-color:#E0D9F6;border-radius:0px;")
                 p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Testículos:] producción de testosterona y gametos masculinos.
-
     Separador
-
     .titulo-segundo
       h2#t_3_6 3.6 Sistema locomotor
-
     p(data-aos="fade-up") El sistema locomotor es la unión del aparato muscular y el aparato esquelético que está compuesto por los casi 650 músculos de distinto tamaño y forma que permiten la movilización del cuerpo, y los 206 huesos también de diversa forma y tamaño que le dan soporte al cuerpo y le sirven de protección a los órganos internos.
     p.mt-4(data-aos="fade-up") El sistema locomotor se divide en:
-
     TabsA.color-acento-contenido.mt-5
       .tarjeta.color-secundario--borde.p-4(titulo="Huesos")
         .row
@@ -409,7 +381,7 @@
                 | #[strong Peroné:] aporta estabilidad al tobillo y sirve para sujetar a los músculos en la pierna, soporta entre el 6 y el 17% del peso del cuerpo.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema3/20.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src="@/assets/curso/tema3/20.svg" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
       .tarjeta.color-secundario--borde.p-4(titulo="Articulaciones")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
@@ -451,7 +423,7 @@
                 | #[strong Articulación de tobillo:] permite movimientos de rotación, extensión y flexión.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema3/21.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src="@/assets/curso/tema3/21.svg" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
       .tarjeta.color-secundario--borde.p-4(titulo="Músculos")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
@@ -481,16 +453,12 @@
                 | #[strong Deltoides:] cualquier movimiento donde esté involucrado el levantamiento de peso.
           .col-lg-3(style="place-self:center;")
             figure
-              img(src="@/assets/curso/tema3/22.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
+              img(src="@/assets/curso/tema3/22.svg" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
     Separador
-
     .titulo-segundo
       h2#t_3_7 3.7 Sistema reproductor
-    
     p(data-aos="fade-up") El sistema está formado por un conjunto de órganos cuyas funciones van desde la generación y síntesis de hormonas sexuales (la micción) hasta la reproducción sexual.
     p.mt-4(data-aos="fade-up") A continuación, se exponen los sistemas de reproducción masculino y femenino, así como sus partes y funciones:
-
     .mt-5.tarjeta.tarjeta--gris.p-4(style="border-radius:0px;background-color:#DEE4F0;")
       SlyderA.slydera1
         div
@@ -550,14 +518,10 @@
             .col-lg-6.m-auto
               .p-4.cont_arrow2(style="background-color:#6FE6F4;")
                 p.mb-0 #[strong Testículos:] producir los gametos masculinos y las hormonas masculinas, principalmente la testosterona.
-
     Separador
-
     .titulo-segundo
       h2#t_3_8 3.8 Sistema tegumentario
-    
     p(data-aos="fade-up") Este sistema surge de la unión de aquellos órganos y estructuras cuyo objetivo es brindar protección frente a agentes externos, así como mantener la temperatura corporal estable y controlada. Pertenecen a este el cabello, uñas y la piel.
-
     .tarjeta.tarjeta--azul.p-5.mt-5(style="background-color:#E2EFFB;")
       SlyderA(tipo="b")
         .row
@@ -589,13 +553,10 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/tema3/30.svg' alt="Muestra estructura de la uña con los textos que se relacionan en la parte inferior")
-
     Separador
-
     .titulo-segundo
       h2#t_3_9 3.9 Sistema inmunológico
-    
-    .cont_3_5.row.pt-5
+    .cont_3_5.row
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema3/32.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
@@ -606,7 +567,6 @@
           p.mb-0(data-aos="fade-up") Las reacciones antígeno-anticuerpo se generan mediante la producción de células y de sustancias de defensa, como los glóbulos blancos (anticuerpos), cuya misión es reconocer y expulsar del organismo a los invasores.
       p.mt-5(data-aos="fade-up") Otros mecanismos de defensa son la inflamación de la zona afectada, el incremento de la temperatura corporal o fiebre.
       p.mt-4(data-aos="fade-up") A continuación, se amplía la información sobre este sistema.
-
     TabsC.color-secundario.mt-5
       .py-3.py-md-4(titulo="Función")
         .row.col-lg-11.m-auto
@@ -660,13 +620,6 @@
           .col-lg-7
             figure
               img(src="@/assets/curso/tema3/36.svg" alt="Muestras estructura de sistema inmunológico y se describe en la parte inferior")
-
-
-
-
-
-
-  
 
 </template>
 

@@ -6,21 +6,16 @@
       .titulo-principal__numero
         span 7
       h1 Definición de medicamento
-    
     .cont_7_1.row
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema7/2.png" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-5(style="place-self:center;")
         p(data-aos="fade-up") Toda droga o mezcla de drogas, con o sin adición de sustancias auxiliares, preparada para ser presentada como formas farmacéuticas que se utiliza para la prevención, alivio, diagnóstico, tratamiento, curación o rehabilitación de las enfermedades del ser humano y de los animales.
-
     Separador
-
     .titulo-segundo
       h2#t_7_1 7.1 Clasificación de los medicamentos
-
     p(data-aos="fade-up") Los medicamentos pueden ser clasificados según los siguientes aspectos:
-
     .row.mt-5.m-auto
       .col-lg-4.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
@@ -34,17 +29,12 @@
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 3
           h5.mb-0(data-aos="fade-up") Vías de administración
-    
     p.mt-5(data-aos="fade-up") En la siguiente imagen podrán observar de manera más amplia su clasificación:
-
     figure.mt-5
       img(src="@/assets/curso/tema7/3.svg" data-aos="zoom-in-up" alt="Muestra diagrama con clasificación de fármacos que se detallan en la parte inferior de la imagen")
-    
     Separador
-
     .titulo-segundo
       h2#t_7_2 7.2 Conceptos de farmacocinética y farmacodinamia
-    
     .cont_7_2.row.pt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -56,13 +46,10 @@
         p.mt-4(data-aos="fade-up") #[strong La farmacocinética] estudia el curso temporal de las concentraciones y cantidades de los fármacos, y de sus metabolitos en los líquidos biológicos, tejidos y excretas, así como su relación con la respuesta farmacológica y construye modelos adecuados para interpretar estos datos.
         .cajon.color-secundario.p-4.mt-4(style="background-color:#F2EEFC;")
           p.mb-0(data-aos="fade-up") Se conoce como el proceso LADME: Liberación, Absorción, Distribución, Metabolismo y Excreción. Dicho de una manera más sencilla: “Lo que el cuerpo le hace al fármaco”.
-    
     p.mt-5(data-aos="fade-up") A continuación, se observa un esquema del proceso realizado por los fármacos administrados vía oral (proceso LADME):
-
     .col-lg-8.mt-5.m-auto
       figure
         img(src="@/assets/curso/tema7/6.svg" data-aos="zoom-in-up" alt="Muestra proceso de fármacos administrados via oral Fármaco  en:  Estómago Intestino delgado Intestino grueso heces Pasando por el proceso de  Absorción Distribución Metabolismo  Eliminación")
-
     .p-4.mt-5(style="background-color:#F7F6FE;")
       .row.col-lg-8.m-auto
         .col-lg-4.col-md-6.mb-4.mb-md-0(style="place-self:center;")
@@ -77,17 +64,12 @@
             li.mb-0(data-aos="fade-up")
               i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
               | Qué es la farmacodinamia: parámetros, farmacodinamia, receptores.
-    
     Separador
-
     .titulo-segundo
       h2#t_7_3 7.3 Formas farmacéuticas y tipos de productos farmacéuticos
-    
     p(data-aos="fade-up") A continuación, se presenta un esquema general de las formas farmacéuticas y la clasificación de los diferentes productos farmacéuticos existentes:
-
     figure.mt-5
       img(src="@/assets/curso/tema7/8.svg" data-aos="zoom-in-up" alt="Muestra clasificación de los diferentes productos farmacéuticos existentes que se describen en la parte inferior")
-    
     .cont_7_3.mt-5.row.pt-4
       .col-lg-4.mb-4.mb-lg-0(style="place-self:end;")
         figure
@@ -124,7 +106,6 @@
           .col-lg-4.col-md-6.mb-4
             .p-4.h-100.d-flex.align-items-center.justify-content-center.pt-5.pb-5(style="background-color:#00BCD4;" data-aos="fade-up")
               p.mb-0.text-white.fw-bold Cosméticos
-
     .p-4.mt-5(style="background-color:#E6F7FE;")
       .row.col-lg-10.m-auto
         .col-lg-3.col-md-5.mb-md-0.mb-4(style="place-self:center;")
@@ -137,11 +118,6 @@
               img(src="@/assets/template/icono-ppt.svg")
             .anexo__texto
               p.fw-bold.mb-0 Anexo. Formas farmaceuticas
-
-
-
-      
-    
    
 </template>
 

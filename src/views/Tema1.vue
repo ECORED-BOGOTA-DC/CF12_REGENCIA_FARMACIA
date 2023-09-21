@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 1
       h1 Biología celular
-    
     .cont_1_1.row
       .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") La biología establece similitudes y diferencias entre los organismos y características propias de los seres vivos de acuerdo con sus estructuras, funciones y su relación con el entorno. Por este motivo, se estudia la estructura y la dinámica funcional común a todos los seres vivos para establecer las leyes generales que rigen la vida y los principios explicativos fundamentales de esta.
@@ -15,7 +14,6 @@
       .col-lg-5
         figure
           img(src="@/assets/curso/tema1/2.svg" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
     p.mt-5(data-aos="fade-up") La célula está diseñada para realizar funciones relacionadas con:
 
     .row.mt-5.col-lg-10.m-auto
@@ -34,33 +32,27 @@
           figure.w-100.m-auto.text-center
             img(src="@/assets/curso/tema1/5.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
           h3.mt-3(data-aos="zoom-in-up") Relación
-    
     p.mt-5(data-aos="fade-up") Dichas funciones propias de los seres vivos, tiene su punto de partida a nivel celular. La fisiología celular es la encargada de este tipo de estudio. En el siguiente esquema podrán observar cómo se desarrollan cada una de estas funciones:
-
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-
+        img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:950px;margin:0 auto;")
     p.mt-5(data-aos="fade-up") La célula es una estructura formada por tres elementos fundamentales:
-
     .cont_1_2.mt-5
       .col-lg-8.m-auto
         figure
           img(src="@/assets/curso/tema1/8.svg" data-aos="zoom-in-up" alt="Muestra foto de célula con sus tres elementos: 1. La membrana plasmática. 2. El citoplasma. 3. El núcleo")
-    
     p.mt-5(data-aos="fade-up") Para poder entender su estructura, primero se debe conocer que existen dos tipos de células:
-      
     .row.mt-5
       .col-lg.p-0
         .p-4.pb-5.text-center(style="background-color:#E6F7FE;border-radius:20px 0px 0px 20px;")
           figure.col-6.m-auto
-            img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+            img(src="@/assets/curso/tema1/9.svg" data-aos="fade-up" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
           h2.mt-5(data-aos="fade-up") Procariotas
           p.mt-4.mb-0(data-aos="fade-up")  Bacteria y arquea.
       .col-lg.p-0
         .p-4.pb-5.text-center(style="background-color:#99E4EE;border-radius:0px 20px 20px 0px;")
           figure.col-6.m-auto
-            img(src="@/assets/curso/tema1/10.svg" data-aos="fade-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+            img(src="@/assets/curso/tema1/10.svg" data-aos="fade-up" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
           h2.mt-5(data-aos="fade-up") Eucariotas
           p.mt-4.mb-0(data-aos="fade-up") Protozoarios, hongos, plantas y animales.
     
@@ -331,7 +323,7 @@
         p.mt-4(data-aos="fade-up") Los seres eucariotas, que poseen más de un cromosoma, como los seres humanos (que tienen la mitad de la información genética del padre y la otra de la madre) utilizan mecanismos de reproducción más complejos como los que se verán a continuación:
       .col-lg-4(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema1/24.svg" data-aos="fade-left" style="max-width:400px;display:inline;" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema1/24.svg" data-aos="fade-left" style="max-width:300px;display:inline;" alt="Imagen decorativa")
     
     TabsC.color-secundario.mt-5
       .py-3.py-md-4(titulo="Diferencias mitosis / meiosis")

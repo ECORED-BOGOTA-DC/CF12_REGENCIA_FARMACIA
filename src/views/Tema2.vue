@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 2
       h1 Anatomía y fisiología
-    
     .cont_2_1.row.p-4.pb-5
       .col-lg-1
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
@@ -17,14 +16,10 @@
           p Son dos ramas de la ciencia que proveen las bases necesarias para aprender con respecto a las estructuras y las funciones del cuerpo humano.
           p.mt-4.p-3(style="border:2px #12263F dashed;border-radius:10px;") Anatomía. – (Ana -de #[em aná], a través, y tomia de #[em tomée], corte). Es la ciencia de las estructuras corporales y las relaciones entre ellas.
           p.mt-4.p-3(style="border:2px #12263F dashed;border-radius:10px;") Fisiología. – (Fisio. -de #[em physis], naturaleza, y #[em logia], de #[em logos], estudios). Es la ciencia que estudia las funciones corporales, es decir, cómo funcionan las distintas partes del cuerpo.
-    
     Separador
-
     .titulo-segundo
       h2#t_2_1 2.1 Niveles de organización estructural
-    
     p(data-aos="fade-up") El cuerpo está organizado en niveles de organización que son:
-    
     br
     .row.mt-4.m-auto
       .col-lg.mb-5.mb-lg-0.pe-5
@@ -52,20 +47,14 @@
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 6
           h5.mb-0(data-aos="fade-up") Nivel de órganos
-    
     p.mt-5(data-aos="fade-up") En la siguiente imagen se podrán observar la secuencia de este nivel de organización, que va desde lo más básico hasta lo más complejo:
-    
     .col-lg-10.mt-5.m-auto
       figure
         img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in-up" alt="Muestra secuencia nivel estructural: átomo, molécula, macromolécula, organelo celular, célula, tejido, órgano, sistema  e individuo u organismo pluricelular")
-
     Separador
-
     .titulo-segundo
       h2#t_2_2 2.2 Características del órgano humano vivo
-    
     p(data-aos="fade-up") Existen procesos que sirven para diferenciar a un cuerpo vivo de los inanimados. Los procesos vitales del cuerpo son:
-    
     .cont_2_2.mt-5.pb-5
       .row.col-lg-10.m-auto.cont_2_3.p-4
         .col-lg-11.m-auto.row
@@ -98,12 +87,9 @@
           .col-lg-5.text-center(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-
     Separador
-
     .titulo-segundo
       h2#t_2_3 2.3 Terminología
-    
     .bloque-texto-a.color-secundario
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
@@ -112,13 +98,10 @@
         .col-lg-8
           .bloque-texto-a__texto.p-4.pt-5.pb-5
             p.mb-0(data-aos="fade-up") Para comprender los temas que se tratarán más adelante, es importante conocer e interiorizar la terminología básica relacionada con la anatomía y la fisiología.
-    
     p.mt-5(data-aos="fade-up") En la siguiente tabla se consignan dichos términos con las respectivas definiciones.
-
     .titulo-sexto.color-acento-botones.mt-5
       h5.d-block Tabla 2
       span #[em Terminología de anatomía y fisiología]
-    
     .tabla-a.color-acento-botones.mt-5
       table
         tbody
@@ -206,8 +189,6 @@
           tr(style="background-color:#fff;")
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Médula espinal
             td.p-4(style="border:0;") Cordón de tejido nervioso situado en el interior de la columna vertebral; es un centro importante de movimientos reflejos y comunica el encéfalo con los órganos sensoriales y motores.
-
-
 
 </template>
 

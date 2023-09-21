@@ -6,15 +6,14 @@
       .titulo-principal__numero
         span 8
       h1 Farmacología especial
-    
-    .cont_8_1.row.pt-5.pb-5
+    .cont_8_1.row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema8/2.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
       .col-lg-1
       .col-lg-6(style="place-self:center;")
         p(data-aos="fade-up") La farmacología especial aborda un tema muy amplio relacionado con los grupos terapéuticos y farmacológicos, que abarcan cada uno de los sistemas del cuerpo humano.
-        p.mt-4(data-aos="fade-up") Se pueden encontrar los fármacos que actúan en el sistema nervioso central, digestivo, endocrino, entre otros y sus respectivos grupos farmacológicos como los son:
+        p(data-aos="fade-up") Se pueden encontrar los fármacos que actúan en el sistema nervioso central, digestivo, endocrino, entre otros y sus respectivos grupos farmacológicos como los son:
         ul.lista-ul.mt-3
           li(data-aos="fade-up")
             i.fas.fa-atom(style="color:#7E5EE3;")
@@ -25,14 +24,11 @@
           li(data-aos="fade-up")
             i.fas.fa-atom(style="color:#7E5EE3;")
             | Hipoglicemiantes, entre otros.
-    
-    p.mt-5(data-aos="fade-up") En la siguiente tabla se representan los grupos terapéuticos definidos según el sistema ATC (Sistema de Clasificación Anatómica, Terapéutica, Química).
-
+    p.mt-0.mt-lg-4(data-aos="fade-up") En la siguiente tabla se representan los grupos terapéuticos definidos según el sistema ATC (Sistema de Clasificación Anatómica, Terapéutica, Química).
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones.mt-5
         h5.d-block Tabla 6
         span #[em Grupos terapéuticos]
-      
       .tabla-a.color-acento-botones.mt-4 
         table
           thead(style="border:0;")
@@ -76,7 +72,6 @@
             tr(style="background-color:#F6F6F6;")
               td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") V
               td.p-4.text-center(style="border:0;") Varios.
-    
     .p-4.mt-5(style="background-color:#E6F7FE;")
       .row.col-lg-10.m-auto
         .col-lg-3.col-md-5.mb-md-0.mb-4(style="place-self:center;")
@@ -89,14 +84,6 @@
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
               p.fw-bold.mb-0 Anexo. Grupos terapeuticos
-
-
-
-
-
-
-
-    
    
 </template>
 

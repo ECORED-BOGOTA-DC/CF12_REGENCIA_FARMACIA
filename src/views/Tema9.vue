@@ -6,11 +6,10 @@
       .titulo-principal__numero
         span 9
       h1 Plantas medicinales
-    
     .row.cont_9_1
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
-        p(data-aos="fade-up") En Colombia existen más de 700 plantas medicinales aprobadas para su uso y comercialización.
-        .bloque-texto-b.color-secundario.p-4
+        p(data-aos="fade-right") En Colombia existen más de 700 plantas medicinales aprobadas para su uso y comercialización.
+        .bloque-texto-b.color-secundario.p-4(data-aos="fade-left")
           .bloque-texto-b__texto.d-flex
             i.fas.fa-quote-left
             h3.mb-0.mt-3 Una planta medicinal es aquella que, en uno o más de sus órganos, contiene sustancias que pueden ser utilizadas con fines terapéuticos o preventivos o que son precursores para la semisíntesis químico-farmacéutica
@@ -19,9 +18,7 @@
       .col-lg-4(style="place-self:center;")
         figure.col-7.m-auto.text-center
           img(src="@/assets/curso/tema9/1.png" data-aos="fade-left" style="display:inline;max-width:350px;" alt="Imagen decorativa")
-    
     p.mt-5(data-aos="fade-up") A continuación, se pueden observar algunas de las características importantes de las plantas medicinales, sus beneficios, impactos positivos que tienen, según Hernández y López (s.f.):
-
     .tarjeta.tarjeta--azul.p-5.mt-5(style="background-color:#E2EFFB;")
       SlyderA(tipo="b")
         .row
@@ -32,21 +29,21 @@
             p.mt-4 Las plantas medicinales juegan un papel muy importante. En 1977 la Organización Mundial de la Salud (OMS) adoptó una resolución para la promoción mundial de la medicina tradicional. Dicha resolución insta a los gobiernos miembros a dar importancia a sus sistemas médicos tradicionales.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema9/2.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src="@/assets/curso/tema9/2.png" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
         .row
           .col-lg-7.mb-4.mb-lg-0
             h4 ¿Qué es una planta medicinal?
             p.mt-3 De acuerdo con la OMS (1979), una planta medicinal es definida como cualquier especie vegetal que contiene sustancias que pueden ser empleadas para propósitos terapéuticos o cuyos principios activos pueden servir de precursores para la síntesis de nuevos fármacos. Estas plantas también tienen importantes aplicaciones en la medicina moderna. Entre otras, son fuente directa de agentes terapéuticos, se emplean como materia prima para la fabricación de medicamentos semisintéticos más complejos, la estructura química de sus principios activos puede servir de modelo para la elaboración de drogas sintéticas y tales principios se pueden utilizar como marcadores taxonómicos en la búsqueda de nuevos medicamentos.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema9/3.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src="@/assets/curso/tema9/3.png" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
         .row
           .col-lg-7.mb-4.mb-lg-0
             h4 Medicina tradicional y moderna
             p.mt-3 Una de las diferencias principales entre la medicina tradicional y la moderna es la protección legal otorgada al conocimiento. Históricamente, los curanderos han compartido sus conocimientos y experiencias sin restricciones, definiendo el 'acceso libre' incluso antes de que existiera el término. En cambio, la medicina moderna está sujeta a rigurosas leyes de protección de la propiedad intelectual y cuenta con un sistema de patentes muy desarrollado que se utiliza para proteger el conocimiento de los fármacos o las técnicas médicas. Más allá de la sostenibilidad de recursos naturales, unir la medicina tradicional y la moderna supone numerosos retos que se derivan de diferencias clave en su ejercicio, evaluación y gestión (García, 2009).
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema9/4.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src="@/assets/curso/tema9/4.png" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
         .row
           .col-lg-7.mb-4.mb-lg-0
             h4 Beneficios de las plantas medicinales
@@ -85,8 +82,7 @@
                 | Son eficaces, durante años han resuelto muchos de los problemas de salud en las comunidades (Olaya, 2007).
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema9/5.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-
+              img(src="@/assets/curso/tema9/5.png" alt="Imagen decorativa" style="max-width:250px;margin:0 auto;")
     .p-4.mt-5(style="background-color:#E6F7FE;")
       .row.col-lg-10.m-auto
         .col-lg-3.col-md-5.mb-md-0.mb-4(style="place-self:center;")
@@ -99,12 +95,6 @@
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
               p.fw-bold.mb-0 Anexo. Vademecum colombiano plantas
-
-
-      
-
-    
-    
    
 </template>
 

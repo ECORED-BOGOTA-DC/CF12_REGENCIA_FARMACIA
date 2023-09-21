@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 6
       h1 Farmacología
-    
     .row
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") Para dar inicio a la temática relacionada con la farmacología, es importante iniciar con su definición:
@@ -15,30 +14,23 @@
       .col-lg-6(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema6/1.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
     p.mt-5(data-aos="fade-up") Se abordará la farmacología desde dos campos generales:
-
     .row.mt-5.m-auto
       .col-lg-4.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 1
           h5.mb-0(data-aos="fade-up") La farmacología general.
-      .col-lg-4.mb-5.mb-lg-0.pe-5
+      .col-lg-4.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 2
           h5.mb-0(data-aos="fade-up") La farmacología especial.
-    
     Separador
-
     .titulo-segundo
       h2#t_6_1 6.1 Farmacología general
-    
     p(data-aos="fade-up") A continuación, se encuentran algunas de las definiciones más relevantes y relacionadas con la farmacología, que serán utilizadas durante el desarrollo del presente tema.
-
     .titulo-sexto.color-acento-botones.mt-5
       h5.d-block Tabla 4
-      span #[em Términos más importantes de la farmacología ]
-    
+      span #[em Términos más importantes de la farmacología]
     .tabla-a.color-acento-botones.mt-5
       table
         tbody
@@ -63,14 +55,10 @@
           tr(style="background-color:#f6f6f6;")
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Farmacología
             td.p-4(style="border:0;") Ciencia que estudia la actividad de los fármacos. La farmacología clínica estudia dicha actividad en el hombre.
-    
     Separador
-
     .titulo-segundo
       h2#t_6_2 6.2 Disciplinas de la farmacología
-    
     p(data-aos="fade-up") La farmacología tiene diferentes ramas de estudio de las que se destacan las siguientes:
-
     .tarjeta.tarjeta--gris.p-4.pt-1
       LineaTiempoC.color-acento-contenido.mt-5
         .row(titulo="")
@@ -146,14 +134,10 @@
           .col-lg-6
             h3 Farmacometría
             p Estudia la relación que existe entre la dosis administrada de un fármaco y la magnitud del resultado obtenido.
-    
     Separador
-
     .titulo-segundo
       h2#t_6_3 6.3 Tipos de acción farmacológica 
-    
     p(data-aos="fade-up") Para entender qué tipo de acciones realizan los fármacos de forma general, a continuación, se define cada una de estas características.
-
     TabsA.color-acento-contenido.mt-5
       .tarjeta.color-secundario--borde.p-4(titulo="Estimulación")
         .row
@@ -195,18 +179,13 @@
           .col-lg-7
             figure
               img(src="@/assets/curso/tema6/15.png" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
     Separador
-
     .titulo-segundo
       h2#t_6_4 6.4 Nomenclatura
-    
     p(data-aos="fade-up") Los fármacos pueden ser nombrados de diferentes formas, como se muestra en la siguiente tabla:
-
     .titulo-sexto.color-acento-botones.mt-5
       h5.d-block Tabla 5
       span #[em Nombres de fármacos]
-    
     .tabla-a.color-acento-botones.mt-4
       table
         tbody
@@ -222,14 +201,10 @@
           tr(style="background-color:#f6f6f6;")
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Comercial
             td.p-4(style="border:0;") Nombre propuesto por el fabricante equivalente a la marca registrada del medicamento; puede estar conformado por uno o varios fármacos.
-    
     Separador
-
     .titulo-segundo
       h2#t_6_5 6.5 Información técnica de los medicamentos
-    
     p(data-aos="fade-up") El medicamento cuenta con una información técnica que es de suma importancia para su identificación y manejo. A continuación, se puede observar esta información mediante un ejemplo donde se podrá identificar cada una de ellas:
-
     .col-lg-4.mt-5.m-auto
       ImagenInfografica.color-acento-botones.infografia1
         template(v-slot:imagen)
@@ -259,29 +234,12 @@
           p.mb-0(style="color:#12263F;") No.de lote
         .tarjeta.color-acento-botones.p-3(x="91%" y="17%" numero="12" style="background-color:#E0D9F6;border-radius:0px;")
           p.mb-0(style="color:#12263F;") Protección de identificación
-
-
-
-
-
-
-
-
-
-
-
-      
-    
    
 </template>
 
 <script>
-import LineaTiempoC from '../components/LineaTiempoC.vue'
 export default {
   name: 'Tema6',
-  components: {
-    LineaTiempoC,
-  },
   data: () => ({
     // variables de vue
   }),

@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 5
       h1 Fitoquímica
-
     .row.col-lg-10.m-auto
       .col-lg.p-0(style="place-self:center;")
         figure
@@ -31,9 +30,7 @@
       .col-lg.p-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/2.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
-    
     p.mt-5(data-aos="fade-up") A continuación, se muestra información relacionada con los metabolitos:
-    
     TabsC.color-secundario.mt-5
       .py-3.py-md-4(titulo="Clasificación")
         .row.col-lg-11.m-auto
@@ -53,7 +50,7 @@
                   p.mb-0 Se enfocan en el desarrollo, fotosíntesis y en la respiración de la planta.
               .col-lg-7
                 figure
-                  img(src="@/assets/curso/tema5/3.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+                  img(src="@/assets/curso/tema5/3.svg" alt="Imagen decorativa" style="max-width:450px;margin:0 auto;")
             .row.mt-5
               .col-lg-5.mb-4.mb-lg-0
                 .p-3.cont_circulo.ps-5.cont_circulo2(style="background-color:#F2EEFC;position:relative;")
@@ -69,7 +66,7 @@
                       | #[strong Nitrogenados:] síntesis para la industria química (cafeína, entre otros ejemplos).
               .col-lg-7
                 figure
-                  img(src="@/assets/curso/tema5/4.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+                  img(src="@/assets/curso/tema5/4.svg" alt="Imagen decorativa" style="max-width:450px;margin:0 auto;")
       .py-3.py-md-4(titulo="Cantidad en las plantas")
         .row.col-lg-11.m-auto
           .col-lg-4.mb-4.mb-lg-0
@@ -97,9 +94,7 @@
           .col-lg-8
             figure
               img(src="@/assets/curso/tema5/6.svg" alt="Muestral control de calidad con los siguientes elementos: •Recolección materia prima vegetal •Secado •Molienda •Extracción •Separación •Concentración •Secado •Residuo •Solvente •Extracto líquido •Preparados farmacéuticos")
-    
     p.mt-5(data-aos="fade-up") Existen diferentes métodos de extracción de estos metabolitos como son:
-
     br
     .row.mt-4.m-auto
       .col-lg.mb-5.mb-lg-0.pe-5
@@ -123,7 +118,6 @@
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 5
           h5.mb-0(data-aos="fade-up") Decocción
-    
     .cont_5_1.mt-5.pb-5
       .row
         .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
@@ -143,11 +137,6 @@
           figure
             img(src="@/assets/curso/tema5/8.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
 
-
-
-
-    
-   
 </template>
 
 <script>
