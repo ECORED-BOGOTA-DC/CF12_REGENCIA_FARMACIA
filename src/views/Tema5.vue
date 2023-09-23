@@ -123,15 +123,15 @@
         .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
           .p-5.cont_responsive1(data-aos="fade-right" style="background-color:#CDEDFC;width:140%;right:-30%;border-radius:40px 40px 0px 40px;box-shadow:0px 0px 20px rgba(0,0,0,.2);position:relative;z-index:2;")
             p.mb-0 Otra ciencia complementaria de la fitoquímica es la farmacognosia que se encarga del estudio de los principios activos de origen natural:
-            ul.fa-ul.mb-0.mt-3
-              li.mb-2
-                i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
+            ul.mb-0.mt-3
+              li.mb-2.d-flex
+                i.fas.fa-atom.mt-1.me-2(style="color:#7E5EE3;")
                 | Vegetal.
-              li.mb-2
-                i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
+              li.mb-2.d-flex
+                i.fas.fa-atom.mt-1.me-2(style="color:#7E5EE3;")
                 | Microbiano (bacterias, hongos).
-              li
-                i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
+              li.d-flex
+                i.fas.fa-atom.mt-1.me-2(style="color:#7E5EE3;")
                 | Animal.
         .col-lg-9(style="place-self:center;")
           figure

@@ -462,8 +462,8 @@
     .mt-5.tarjeta.tarjeta--gris.p-4(style="border-radius:0px;background-color:#DEE4F0;")
       SlyderA.slydera1
         div
-          figure.col-7.m-auto
-            img(src="@/assets/curso/tema3/23.svg" alt="Muestra imagen sistema reproductor femenino señalando cuello uterino")
+          figure.col-lg-7.m-auto
+            img(src="@/assets/curso/tema3/23.svg" style="max-width:550px;margin:0 auto;" alt="Muestra imagen sistema reproductor femenino señalando cuello uterino")
           .row.mt-5
             .col-lg-6.mb-4.mb-lg-0
               .p-4.h-100.cont_arrow1(style="background-color:#D2C6F9;")
@@ -472,8 +472,8 @@
               .p-4.h-100.cont_arrow2(style="background-color:#6FE6F4;")
                 p.mb-0 #[strong Trompas de Falopio:] transporte de los óvulos desde el ovario hasta el útero, lugar donde el espermatozoide fecunda el óvulo.
         div
-          figure.col-7.m-auto
-            img(src="@/assets/curso/tema3/24.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+          figure.col-lg-7.m-auto
+            img(src="@/assets/curso/tema3/24.svg" alt="Imagen decorativa" style="max-width:550px;margin:0 auto;")
           .row.mt-5
             .col-lg-6.mb-4.mb-lg-0
               .p-4.h-100.cont_arrow1(style="background-color:#D2C6F9;")
@@ -482,8 +482,8 @@
               .p-4.h-100.cont_arrow2(style="background-color:#6FE6F4;")
                 p.mb-0 #[strong Ovarios:] son las glándulas sexuales femeninas secretoras de los óvulos.
         div
-          figure.col-7.m-auto
-            img(src="@/assets/curso/tema3/25.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+          figure.col-lg-7.m-auto
+            img(src="@/assets/curso/tema3/25.svg" alt="Imagen decorativa" style="max-width:550px;margin:0 auto;")
           .row.mt-5
             .col-lg-6.mb-4.mb-lg-0
               .p-4.h-100.cont_arrow1(style="background-color:#D2C6F9;")
@@ -492,7 +492,7 @@
               .p-4.h-100.cont_arrow2(style="background-color:#6FE6F4;")
                 p.mb-0 #[strong Miometrio:] músculo del endometrio.
         div
-          figure.col-6.m-auto
+          figure.col-lg-6.m-auto
             img(src="@/assets/curso/tema3/26.svg" alt="Muestra sistema reproductor masculino y debajo descripción de sus partes")
           .row.mt-5
             .col-lg-6.mb-4.mb-lg-0
@@ -502,8 +502,8 @@
               .p-4.h-100.cont_arrow2(style="background-color:#6FE6F4;")
                 p.mb-0 #[strong Próstata:] producción del semen. 
         div
-          figure.col-6.m-auto
-            img(src="@/assets/curso/tema3/27.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+          figure.col-lg-6.m-auto
+            img(src="@/assets/curso/tema3/27.svg" alt="Imagen decorativa" style="max-width:550px;margin:0 auto;")
           .row.mt-5
             .col-lg-6.mb-4.mb-lg-0
               .p-4.h-100.cont_arrow1(style="background-color:#D2C6F9;")
@@ -512,8 +512,8 @@
               .p-4.h-100.cont_arrow2(style="background-color:#6FE6F4;")
                 p.mb-0 #[strong Conductos seminales:] tubos de almacén de espermatozoides y transporte del esperma fuera de la bolsa del escroto.
         div
-          figure.col-6.m-auto
-            img(src="@/assets/curso/tema3/28.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+          figure.col-lg-6.m-auto
+            img(src="@/assets/curso/tema3/28.svg" alt="Imagen decorativa" style="max-width:400px;margin:0 auto;")
           .row.mt-5.m-auto
             .col-lg-6.m-auto
               .p-4.cont_arrow2(style="background-color:#6FE6F4;")

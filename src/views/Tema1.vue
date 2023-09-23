@@ -280,7 +280,7 @@
 
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/18.svg" data-aos="zoom-in-up" alt="Imagen decorativa"  style="max-width:350px;margin:0 auto;")
+        img(src="@/assets/curso/tema1/18.svg" data-aos="zoom-in-up" alt="Imagen decorativa"  style="max-width:1050px;margin:0 auto;")
     
     Separador
 

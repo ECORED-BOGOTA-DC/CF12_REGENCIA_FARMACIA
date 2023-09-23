@@ -15,20 +15,20 @@
         figure
           img(src="@/assets/curso/tema4/2.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     p.mt-5(data-aos="fade-up") A continuación, se puede observar de manera general la definición, objetivos de estudio y enfoque de la bioquímica:
-    .mt-5.tarjeta.tarjeta--gris.p-4(style="border-radius:0px;background-color:#DEE4F0;")
-      SlyderA.slydera1
-        div
-          .col-lg-8.m-auto
+    .mt-5.tarjeta.tarjeta--gris.p-4.p-lg-5(style="border-radius:0px;background-color:#DEE4F0;")
+      SlyderA
+        .row.justify-content-center
+          .col-lg-10
             figure
               img(src="@/assets/curso/tema4/3.svg" alt="Imagen de Bioquímica que se explica en la parte inferior")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Estructura general
-        div
-          .col-lg-8.m-auto
+        .row.justify-content-center
+          .col-lg-10
             figure
               img(src="@/assets/curso/tema4/4.svg" alt="Imagen que describe generalidades de la bioquímica y se describen en la parte inferior")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Generalidades
-        div
-          .col-lg-8.m-auto
+        .row.justify-content-center
+          .col-lg-10
             .bg-white.p-4(style="border-radius:15px;border:4px #12263F dashed;")
               ul.fa-ul.mb-0
                 li.mb-2
@@ -41,17 +41,17 @@
               figure
                 img(src="@/assets/curso/tema4/5.svg" style="max-width:300px;display:inline;position:relative;margin-right:20px;margin-top:-20px;" alt="Imagen decorativa")
             figure.mt-4
-              img(src="@/assets/curso/tema4/6.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src="@/assets/curso/tema4/6.svg" alt="Imagen decorativa" style="max-width:850px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Relación con la medicina y la salud.
-        div
-          .col-10.m-auto
+        .row.justify-content-center
+          .col-lg-10
             figure
-              img(src="@/assets/curso/tema4/7.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src="@/assets/curso/tema4/7.svg" alt="Imagen decorativa" style="max-width:950px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:]  Las enfermedades tienen una base bioquímica, ya que se producen por las alteraciones en las micro y macromoléculas.
-        div
-          .col-7.m-auto
+        .row.justify-content-center
+          .col-7
             figure
-              img(src="@/assets/curso/tema4/8.svg" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
+              img(src="@/assets/curso/tema4/8.svg" alt="Imagen decorativa" style="max-width:850px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Fármacos que contrarrestan los efectos fisiológicos.
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")

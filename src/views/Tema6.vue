@@ -15,15 +15,15 @@
         figure
           img(src="@/assets/curso/tema6/1.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     p.mt-5(data-aos="fade-up") Se abordará la farmacología desde dos campos generales:
-    .row.mt-5.m-auto
-      .col-lg-4.mb-5.mb-lg-0.pe-5
+    .row.justify-content-center.mt-5.m-auto
+      .col-md-8.col-lg-4.mb-5.mb-lg-0.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 1
-          h5.mb-0(data-aos="fade-up") La farmacología general.
-      .col-lg-4.pe-5
+          h5.mb-0(data-aos="fade-up") La farmacología general
+      .col-md-8.col-lg-4.pe-5
         .p-4.d-flex.align-items-center.justify-content-center.cont_figura_2_1(style="background-color:#E6F4FF;position:relative;z-index:999;")
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 2
-          h5.mb-0(data-aos="fade-up") La farmacología especial.
+          h5.mb-0(data-aos="fade-up") La farmacología especial
     Separador
     .titulo-segundo
       h2#t_6_1 6.1 Farmacología general
