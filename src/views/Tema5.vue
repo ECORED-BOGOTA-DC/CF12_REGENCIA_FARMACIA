@@ -70,7 +70,7 @@
       .py-3.py-md-4(titulo="Cantidad en las plantas")
         .row.col-lg-11.m-auto
           .col-lg-4.mb-4.mb-lg-0
-            p La industria se enfrenta a muchos retos en el campo de la fitoquímica, ya que la cantidad de metabolitos que se encuentran en la planta es muy amplio y supone un crecimiento y una necesidad de acelerar los procesos para su obtención.
+            p La industria se enfrenta a muchos retos en el campo de la fitoquímica, ya que la cantidad de metabolitos que se encuentran en la planta es muy amplia y supone un crecimiento y una necesidad de acelerar los procesos para su obtención.
           .col-lg-3.mb-4.mb-lg-0
             .p-3(style="background-color:#F2EEFC;")
               p.fw-bold Reto en la diversidad

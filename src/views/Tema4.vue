@@ -41,17 +41,17 @@
               figure
                 img(src="@/assets/curso/tema4/5.svg" style="max-width:300px;display:inline;position:relative;margin-right:20px;margin-top:-20px;" alt="Imagen decorativa")
             figure.mt-4
-              img(src="@/assets/curso/tema4/6.svg" alt="Imagen decorativa" style="max-width:850px;margin:0 auto;")
+              img(src="@/assets/curso/tema4/6.svg" alt="Es una situación de la que miles de reacciones intracelulares y extracelulares que ocurren en el cuerpo proceden de manera acorde con la supervivencia máxima del organismo.<br>Micromoléculas: vitaminas y minerales.<br>Macromoléculas: aminoácidos, glucósidos y ácidos grasos." style="max-width:850px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Relación con la medicina y la salud.
         .row.justify-content-center
           .col-lg-10
             figure
-              img(src="@/assets/curso/tema4/7.svg" alt="Imagen decorativa" style="max-width:950px;margin:0 auto;")
+              img(src="@/assets/curso/tema4/7.svg" alt="Conexión bioquímica-medicina-farmacología<br>a.	Ácidos nucleicos - Enfermedades genéticas<br>b.	Proteínas - Drepanocitosis<br>c.	Bioquímica - Medicina<br>d.	Lípidos - Aterosclerosis<br>e.	Carbohidratos - Diabetes mellitus" style="max-width:950px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:]  Las enfermedades tienen una base bioquímica, ya que se producen por las alteraciones en las micro y macromoléculas.
         .row.justify-content-center
           .col-7
             figure
-              img(src="@/assets/curso/tema4/8.svg" alt="Imagen decorativa" style="max-width:850px;margin:0 auto;")
+              img(src="@/assets/curso/tema4/8.svg" alt="a.	Cambios de estilo de vida<br>b.	Fármacos como hipolipemiantes (atorvastatina, simvastatina).<br>c.	Suplementos dietarios bajo prescripción médica.<br>Así mismo, es importante identificar los principales elementos y compuestos químicos del cuerpo humano, con el objetivo de entender los diferentes procesos que este realiza para desarrollar sus funciones de forma equilibrada y en completa armonía.<br>A continuación, se muestran los componentes (biomoléculas) más importantes para que dichos procesos se lleven a cabo y sus funciones en el organismo." style="max-width:850px;margin:0 auto;")
             figcaption.mt-4.fw-normal(style="background-color:transparent;") #[strong Nota:] Fármacos que contrarrestan los efectos fisiológicos.
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
@@ -62,10 +62,14 @@
           img(src="@/assets/curso/tema4/9.png" data-aos="fade-left" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
     p.mt-5(data-aos="fade-up") A continuación, se muestran los componentes (biomoléculas) más importantes para que dichos procesos se lleven a cabo y sus funciones en el organismo.
     .titulo-sexto.color-acento-botones.mt-5
-      h5.d-block Tabla 3
-      span #[em Importancia de las biomoléculas en el organismo]
+      h5 Tabla 4.
+      span Importancia de las biomoléculas en el organismo
     .tabla-a.color-acento-botones.mt-4
       table
+        thead(style="border:0;")
+          tr(style="background-color:#00BCD4;")
+            th.text-white(style="border:0;") Biomolécula
+            th.text-white(style="border:0;") Importancia
         tbody
           tr(style="background-color:#fff;")
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Lípidos

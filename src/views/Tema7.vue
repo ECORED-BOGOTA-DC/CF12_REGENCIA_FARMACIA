@@ -30,7 +30,11 @@
           div(style="position:absolute;font-weight:bold;color:#fff;background-color:#00BCD4;left:-20px;top:-20px;font-size:24px;padding:.5rem 1rem;z-index:2;") 3
           h5.mb-0(data-aos="fade-up") Vías de administración
     p.mt-5(data-aos="fade-up") En la siguiente imagen podrán observar de manera más amplia su clasificación:
-    figure.mt-5
+
+    .titulo-sexto.color-acento-botones(data-aos="fade-right")
+      h5 Figura 4.
+      span Clasificación
+    figure
       img(src="@/assets/curso/tema7/3.svg" data-aos="zoom-in-up" alt="Muestra diagrama con clasificación de fármacos que se detallan en la parte inferior de la imagen")
     Separador
     .titulo-segundo
@@ -48,6 +52,9 @@
           p.mb-0(data-aos="fade-up") Se conoce como el proceso LADME: Liberación, Absorción, Distribución, Metabolismo y Excreción. Dicho de una manera más sencilla: “Lo que el cuerpo le hace al fármaco”.
     p.mt-5(data-aos="fade-up") A continuación, se observa un esquema del proceso realizado por los fármacos administrados vía oral (proceso LADME):
     .col-lg-8.mt-5.m-auto
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 5.
+        span Proceso de fármacos orales
       figure
         img(src="@/assets/curso/tema7/6.svg" data-aos="zoom-in-up" alt="Muestra proceso de fármacos administrados via oral Fármaco  en:  Estómago Intestino delgado Intestino grueso heces Pasando por el proceso de  Absorción Distribución Metabolismo  Eliminación")
     .p-4.mt-5(style="background-color:#F7F6FE;")
@@ -68,7 +75,11 @@
     .titulo-segundo
       h2#t_7_3 7.3 Formas farmacéuticas y tipos de productos farmacéuticos
     p(data-aos="fade-up") A continuación, se presenta un esquema general de las formas farmacéuticas y la clasificación de los diferentes productos farmacéuticos existentes:
-    figure.mt-5
+    
+    .titulo-sexto.color-acento-botones(data-aos="fade-right")
+      h5 Figura 6.
+      span Clasificación y formas farmacéuticas
+    figure
       img(src="@/assets/curso/tema7/8.svg" data-aos="zoom-in-up" alt="Muestra clasificación de los diferentes productos farmacéuticos existentes que se describen en la parte inferior")
     .cont_7_3.mt-5.row.pt-4
       .col-lg-4.mb-4.mb-lg-0(style="place-self:end;")

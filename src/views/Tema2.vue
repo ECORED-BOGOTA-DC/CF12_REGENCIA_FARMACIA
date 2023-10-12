@@ -49,6 +49,9 @@
           h5.mb-0(data-aos="fade-up") Nivel de órganos
     p.mt-5(data-aos="fade-up") En la siguiente imagen se podrán observar la secuencia de este nivel de organización, que va desde lo más básico hasta lo más complejo:
     .col-lg-10.mt-5.m-auto
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 3.
+        span Niveles de organización
       figure
         img(src="@/assets/curso/tema2/3.svg" data-aos="zoom-in-up" alt="Muestra secuencia nivel estructural: átomo, molécula, macromolécula, organelo celular, célula, tejido, órgano, sistema  e individuo u organismo pluricelular")
     Separador
@@ -100,10 +103,14 @@
             p.mb-0(data-aos="fade-up") Para comprender los temas que se tratarán más adelante, es importante conocer e interiorizar la terminología básica relacionada con la anatomía y la fisiología.
     p.mt-5(data-aos="fade-up") En la siguiente tabla se consignan dichos términos con las respectivas definiciones.
     .titulo-sexto.color-acento-botones.mt-5
-      h5.d-block Tabla 2
-      span #[em Terminología de anatomía y fisiología]
+      h5 Tabla 3.
+      span Terminología de anatomía y fisiología
     .tabla-a.color-acento-botones.mt-5
-      table
+      table(alt="Terminología de anatomía y fisiología")
+        thead(style="border:0;")
+          tr(style="background-color:#00BCD4;")
+            th.text-white(style="border:0; width: 40%") Término
+            th.text-white(style="border:0; width: 60%") Definición
         tbody
           tr(style="background-color:#F6F6F6;")
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Órgano

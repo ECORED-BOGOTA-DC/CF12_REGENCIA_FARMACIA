@@ -27,10 +27,10 @@
     p.mt-0.mt-lg-4(data-aos="fade-up") En la siguiente tabla se representan los grupos terapéuticos definidos según el sistema ATC (Sistema de Clasificación Anatómica, Terapéutica, Química).
     .col-lg-8.mt-5.m-auto
       .titulo-sexto.color-acento-botones.mt-5
-        h5.d-block Tabla 6
-        span #[em Grupos terapéuticos]
+        h5 Tabla 7
+        span Grupos terapéuticos
       .tabla-a.color-acento-botones.mt-4 
-        table
+        table(alt="tabla se representan los grupos terapéuticos definidos según el sistema ATC (Sistema de Clasificación Anatómica, Terapéutica, Química).")
           thead(style="border:0;")
             tr(style="background-color:#00BCD4;")
               th.text-white.p-4(style="border:0;") Grupo

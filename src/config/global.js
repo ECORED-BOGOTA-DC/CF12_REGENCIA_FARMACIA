@@ -291,7 +291,7 @@ export default {
   complementario: [
     {
       tema: 'Biología celular',
-      referencia: 'Unprofesor.com. (2015). Partes de la célula procariota',
+      referencia: 'Unprofesor.com. (2015). Partes de la célula procariota.',
       tipo: 'Video',
       link: 'https://youtu.be/Gt15ksP7mPs',
     },
@@ -350,27 +350,6 @@ export default {
         'Unprofesor. (2020). Qué es la farmacodinamia: parámetros farmacodinamia receptores.',
       tipo: 'Video',
       link: 'https://youtu.be/NiP8wM4kQ9s',
-    },
-    {
-      tema: 'Formas farmacéuticas',
-      referencia:
-        'Moreno, E. (2021). Formas farmacéuticas: origen, presentación, mecanismos de absorción y eliminación. SENA.',
-      tipo: 'Presentación',
-      descarga: '/downloads/Anexo5_CF012_Formas_farmaceuticas.pptx',
-    },
-    {
-      tema: 'Farmacología especial',
-      referencia: 'Moreno, E. (2021). Grupos terapéuticos. SENA.',
-      tipo: 'Documento',
-      descarga: '/downloads/Anexo2_CF012_Grupos_terapauticos.pdf',
-    },
-    {
-      tema: 'Plantas medicinales',
-      referencia:
-        'Ministerio de Protección Social. (2009). Vademécum colombiano de plantas medicinales. Ministerio de Protección Social.',
-      tipo: 'Vademécum',
-      descarga:
-        '/downloads/Anexo4_CF012_Vademecum_colombiano_plantas_medicinales.pdf',
     },
   ],
   glosario: [
@@ -488,8 +467,6 @@ export default {
     },
     {
       referencia: 'Hernández D., y López, V. (s.f.) Plantas medicinales.',
-      link:
-        'http://sgpwe.izt.uam.mx/files/users/uami/ifig/Plantas_medicinales_Seminario_Final_Silva_Nataly.pdf',
     },
     {
       referencia:
@@ -521,7 +498,6 @@ export default {
     },
     {
       referencia: 'Monroy, M. D. (s.f.). Estructura de los lípidos.',
-      link: 'http://www.bioquimica.dogsleep.net/Teoria/archivos/Unidad71.pdf',
     },
     {
       referencia: 'Murray, R. (s.f.). Bioquímica de Harper. Mc Graw Hill.',

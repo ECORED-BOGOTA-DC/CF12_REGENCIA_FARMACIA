@@ -90,7 +90,7 @@
             img(src="@/assets/curso/tema9/6.svg" data-aos="fade-right" alt="Imagen decorativa" style="max-width:350px;margin:0 auto;")
         .col-lg-9.col-md-7.mb-md-0.mb-4(style="place-self:center;")
           p(data-aos="fade-up") Para complementar este tema, se debe revisar el vademécum colombiano con las plantas medicinales aprobadas.
-          a.anexo.mt-3.bg-white(:href="obtenerLink('downloads/AnexAnexo4_CF012_Vademecum_colombiano_plantas_medicinaleso2_CF012_Grupos_terapauticos.pdf')" target="_blank" data-aos="zoom-in-up")
+          a.anexo.mt-3.bg-white(:href="obtenerLink('downloads/Anexo4_CF012_Vademecum_colombiano_plantas_medicinales.pdf')" target="_blank" data-aos="zoom-in-up")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto

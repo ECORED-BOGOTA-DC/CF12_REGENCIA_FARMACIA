@@ -29,10 +29,14 @@
       h2#t_6_1 6.1 Farmacología general
     p(data-aos="fade-up") A continuación, se encuentran algunas de las definiciones más relevantes y relacionadas con la farmacología, que serán utilizadas durante el desarrollo del presente tema.
     .titulo-sexto.color-acento-botones.mt-5
-      h5.d-block Tabla 4
-      span #[em Términos más importantes de la farmacología]
+      h5 Tabla 5.
+      span Términos más importantes de la farmacología
     .tabla-a.color-acento-botones.mt-5
       table
+        thead(style="border:0;")
+          tr(style="background-color:#00BCD4;")
+            th.text-white(style="border:0;") Término
+            th.text-white(style="border:0;") Definición
         tbody
           tr(style="background-color:#f6f6f6;")
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Droga
@@ -184,10 +188,14 @@
       h2#t_6_4 6.4 Nomenclatura
     p(data-aos="fade-up") Los fármacos pueden ser nombrados de diferentes formas, como se muestra en la siguiente tabla:
     .titulo-sexto.color-acento-botones.mt-5
-      h5.d-block Tabla 5
-      span #[em Nombres de fármacos]
+      h5 Tabla 6.
+      span Nombres de fármacos
     .tabla-a.color-acento-botones.mt-4
       table
+        thead(style="border:0;")
+          tr(style="background-color:#00BCD4;")
+            th.text-white(style="border:0;") Fármaco
+            th.text-white(style="border:0;") Definición
         tbody
           tr(style="background-color:#fff;")
             td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;") Químico

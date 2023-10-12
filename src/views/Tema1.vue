@@ -35,10 +35,13 @@
     p.mt-5(data-aos="fade-up") Dichas funciones propias de los seres vivos, tiene su punto de partida a nivel celular. La fisiología celular es la encargada de este tipo de estudio. En el siguiente esquema podrán observar cómo se desarrollan cada una de estas funciones:
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up" alt="Imagen decorativa" style="max-width:950px;margin:0 auto;")
+        img(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up" alt="a.	Funciones de nutrición: <br>Incorporación de nutrientes: transporte a través de las membranas por difusión simple y facilitada.<br>Preparación de los nutrientes: transformación de macronutrientes en micronutrientes más fácilmente absorbibles.<br>Utilización de los nutrientes: a través del metabolismo se utilizan los nutrientes para obtención de energía, procesos internos y construir estructuras.<br>Eliminación de desechos: por exocitosis se eliminan las sustancias no asimiladas por la célula a través de la membrana (por transporte).<br>b.	Funciones de reproducción:<br>a.	Ciclo celular. Formado por etapas principales:<br>Interface (periodo de reposo).<br>División celular (mitótica y meiótica).<br>b.	Mitosis: el núcleo de la célula madre se divide para dar lugar a los núcleos de las dos células hija profase, metafase, anafase y telofase.<br>c.	Meiosis: se forman los óvulos y espermatozoides. Las células diploides replican su ADN produciendo cuatro células sexuales con un solo juego de cromosomas.<br>c.	Funciones de relación:<br>Se relaciona con las respuestas de los seres vivos ante estímulos externos. <br>Existen de dos tipos:<br>Estáticas no hay movimiento.<br>Dinámicas hay movimiento celular.<br>La célula es una estructura formada por tres elementos fundamentales:<br>a.	La membrana plasmática.<br>b.	El citoplasma.<br>c.	El núcleo: donde se encuentra el material genético (ADN)." style="max-width:950px;margin:0 auto;")
     p.mt-5(data-aos="fade-up") La célula es una estructura formada por tres elementos fundamentales:
     .cont_1_2.mt-5
       .col-lg-8.m-auto
+        .titulo-sexto.color-acento-botones(data-aos="fade-right")
+          h5 Figura 1.
+          span Célula
         figure
           img(src="@/assets/curso/tema1/8.svg" data-aos="zoom-in-up" alt="Muestra foto de célula con sus tres elementos: 1. La membrana plasmática. 2. El citoplasma. 3. El núcleo")
     p.mt-5(data-aos="fade-up") Para poder entender su estructura, primero se debe conocer que existen dos tipos de células:
@@ -59,11 +62,11 @@
     p.mt-5(data-aos="fade-up") A continuación, se observan las diferencias entre estos tipos de células:
 
     .titulo-sexto.color-acento-botones.mt-5
-      h5.d-block Figura 1
-      span #[em Diferencias entre células eucariotas y procariotas]
+      h5 Tabla 1.
+      span Diferencias entre células eucariotas y procariotas
     
     .tabla-a.color-acento-botones.mt-4 
-      table
+      table(alt="Muestra 3 columnas con diferencias en:  aspectos, eucariota y procariota")
         thead(style="border:0;")
           tr(style="background-color:#00BCD4;")
             th.text-white(style="border:0;") Aspectos
@@ -152,7 +155,7 @@
           p.mb-0(style="color:#12263F;") Filamentos que le dan estructura a la célula.
         .tarjeta.color-acento-botones.p-3(x="100%" y="53.5%" numero="" style="background-color:#E0D9F6;")
           .h5.mb-2(style="color:#12263F;") Mitocondrias
-          p.mb-0(style="color:#12263F;") Estructura responsable del proceso respiración y donde se generar el ATP (Adenosín Trifosfato) para obtención de energía.
+          p.mb-0(style="color:#12263F;") Estructura responsable del proceso respiración y donde se genera el ATP (Adenosín Trifosfato) para obtención de energía.
         .tarjeta.color-acento-botones.p-3(x="89%" y="78%" numero="" style="background-color:#E0D9F6;")
           .h5.mb-2(style="color:#12263F;") Citoplasma
           p.mb-0(style="color:#12263F;") Es el lugar que permite que se lleven a cabo las funciones bioquímicas. Lo conforma una red de membranas (retículo endoplasmático).
@@ -280,7 +283,7 @@
 
     .col-lg-10.mt-5.m-auto
       figure
-        img(src="@/assets/curso/tema1/18.svg" data-aos="zoom-in-up" alt="Imagen decorativa"  style="max-width:1050px;margin:0 auto;")
+        img(src="@/assets/curso/tema1/18.svg" data-aos="zoom-in-up" alt="Clasificación de las biomoléculas<br>a.	Inorgánicas: se caracterizan por no tener átomo de carbono en su estructura, excepto el monóxido de carbono (CO) y el dióxido de carbono (CO2).<br>Ejemplos<br>1.	Sales minerales: calcio, fósforo, potasio, sodio, hierro, yodo, cobre.<br>2.	El agua: disolvente universal.<br>3.	Gases: oxígeno, argón, dióxido de carbono, nitrógeno, helio, neón.<br>b.	Orgánicas: están formados por carbono, oxígeno, nitrógeno e hidrógeno. <br>Ejemplos<br>1.	Carbohidratos: proporcionan energía al cuerpo.<br>2.	Lípidos: actúan como reservorios de energía, son parte importante de la membrana celular.<br>3.	Proteínas: tiene funciones de reserva, defensa, transporte, estructurales, movimiento, hormonales, reconocimiento de señales químicas.<br>4.	Ácidos nucleicos: ADN y ARN responsables de almacenamiento y la expresión de la información genética.<br>c.	Carbohidrato: son los de mayor abundancia en la naturaleza y cumplen funciones como: <br>1.	Proporcionar estructura.<br>2.	Ser fuente de energía. (glucosa).<br>3.	Transformar la energía lumínica en combustible para la célula.<br>4.	Participar en proceso de comunicación."  style="max-width:1050px;margin:0 auto;")
     
     Separador
 
@@ -319,7 +322,7 @@
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") Por medio de procesos biológicos se generan nuevas células, replicando su información genética y repitiendo dicho ciclo. El objetivo de la reproducción celular es aumentar la cantidad de células que existen en el organismo, sin embargo, todos los seres vivos envejecen y esa producción se disminuye, se detiene o se hace de manera menos eficiente.
         .cajon.color-secundario.p-4.mt-4(style="background-color:#F2EEFC;")
-          p.mb-0(data-aos="fade-up") Existen tres formas en las que se reproduce la célula. La primera de ellas y las más simple, es la fisión binaria, donde se replica el material genético y se divide en dos individuos similares, como por ejemplo las bacterias, que tienen un solo cromosoma y su reproducción es asexual.
+          p.mb-0(data-aos="fade-up") Existen tres formas en las que se reproduce la célula. La primera de ellas y la más simple, es la fisión binaria, donde se replica el material genético y se divide en dos individuos similares, como por ejemplo las bacterias, que tienen un solo cromosoma y su reproducción es asexual.
         p.mt-4(data-aos="fade-up") Los seres eucariotas, que poseen más de un cromosoma, como los seres humanos (que tienen la mitad de la información genética del padre y la otra de la madre) utilizan mecanismos de reproducción más complejos como los que se verán a continuación:
       .col-lg-4(style="place-self:center;")
         figure.text-center
@@ -328,12 +331,15 @@
     TabsC.color-secundario.mt-5
       .py-3.py-md-4(titulo="Diferencias mitosis / meiosis")
         .row.col-lg-11.m-auto
-          .col-lg-4.mb-4.mb-lg-0
+          .col-xxl-4.mb-4.mb-xxl-0
             h3 Diferencias mitosis / meiosis
             p Diferencias entre la reproducción mitótica y la meiótica.
-          .col-lg-8
+          .col-xxl-8
+            .titulo-sexto.color-acento-botones
+              h5 Tabla 2.
+              span Diferencias entre la reproducción #[b mitótica y la meiótica.]
             .tabla-a.color-acento-botones
-              table
+              table(alt="Diferencias entre la reproducción mitótica y la meiótica.")
                 thead(style="border:0;")
                   tr(style="background-color:#00BCD4;")
                     th.text-white(style="border:0;") Mitosis
@@ -359,19 +365,19 @@
                     td.p-4(style="border:0;") Las células hijas tienen combinaciones variadas de cromosomas y no son idénticas a la célula madre.
       .py-3.py-md-4(titulo="Reproducción mitótica")
         .row.col-lg-11.m-auto
-          .col-lg-4.mb-4.mb-lg-0
+          .col-xxl-4.mb-4.mb-xxl-0
             h3 Reproducción mitótica
             p Etapas de la reproducción mitótica.
-          .col-lg-8
+          .col-xxl-8
             figure
               img(src="@/assets/curso/tema1/25.svg" alt="Muestra imagen de las etapas de la reproducción mitótica que se describen en la parte inferior de la imagen")
       .py-3.py-md-4(titulo="Reproducción meiótica")
         .row.col-lg-11.m-auto
-          .col-lg-4.mb-4.mb-lg-0
+          .col-xxl-4.mb-4.mb-xxl-0
             h3 Reproducción meiótica
             p Se lleva a cabo por medio de dos divisiones celulares sucesivas que producen 4 células haploides (n), denominadas gametos (óvulos o espermatozoides), a partir de una célula diploide (2n), llamada célula madre.
             p.mt-4 En el esquema se representan sus fases:
-          .col-lg-8
+          .col-xxl-8
             figure
               img(src="@/assets/curso/tema1/26.svg" alt="Muestra fases de reproducción meiótica con fases: interfase, meiosis, cromosomas homólogos, núcleos hijos")
     
@@ -416,7 +422,10 @@
     p.mt-5(data-aos="fade-up") Actualmente la botánica es una disciplina muy amplia que no solo se enfoca en el estudio de las plantas, sino que amplía sus intereses a nivel biotecnológico, genético y molecular, mediante los que se desarrollan otras especies de plantas y se racionaliza su uso en el ser humano.
     p.mt-4(data-aos="fade-up") En el siguiente esquema, se observan las ramas de la botánica y sus aplicaciones en los ámbitos de la ciencia:
 
-    figure.mt-5
+    .titulo-sexto.color-acento-botones(data-aos="fade-right")
+      h5 Figura 2.
+      span Botánica
+    figure
       img(src="@/assets/curso/tema1/28.svg" data-aos="zoom-in-up" alt="Imagen que muestra las ramas de la botánica y aplicaciones, se describe parte inferior imagen")
 
     Separador
@@ -454,7 +463,7 @@
             .h5.mb-2(style="color:#12263F;") Órgano.
             p.mb-0(style="color:#12263F;") Ejemplo: corazón. Compuesto de tejido muscular.
           .tarjeta.color-acento-botones.p-3.pt-5.pb-5.text-center(x="89%" y="62%" numero="" style="background-color:#CDEDFC;border-top:5px #00BCD4 solid;border-radius:0px;")
-            .h5.mb-2(style="color:#12263F;") Tejído.
+            .h5.mb-2(style="color:#12263F;") Tejido.
             p.mb-0(style="color:#12263F;") Ejemplo: tejido óseo. Conjunto de células.
           .tarjeta.color-acento-botones.p-3.pt-5.pb-5.text-center(x="11%" y="97%" numero="" style="background-color:#CDEDFC;border-top:5px #00BCD4 solid;border-radius:0px;")
             .h5.mb-2(style="color:#12263F;") Población.

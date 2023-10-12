@@ -55,7 +55,7 @@
         .col-lg-8(style="place-self:center;")
           p Conecta el sistema nervioso central con todos los órganos y tejidos del cuerpo (órganos receptores y efectores), está formado principalmente por nervios.
           p.mt-4 Se divide en sistema nervioso simpático y parasimpático, ambos controlados por estructuras del encéfalo.
-          p.mt-4 Ambos subsistemas trabajan de manera complementarias:
+          p.mt-4 Ambos subsistemas trabajan de manera complementaria:
           ul.fa-ul.mt-3
             li
               i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
@@ -134,7 +134,7 @@
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
                 | Controlan mediante su apertura y su cierre que el flujo de sangre sea unidireccional y suficiente como para abastecer las necesidades del organismo.
-            p.mt-4.fw-bold Haz de HIZ
+            p.mt-4.fw-bold Haz de HIS
             ul.fa-ul.mt-3
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;") 
@@ -168,7 +168,7 @@
             p.mt-4 Está formado por:
             p.mt-4 #[strong Vasos linfáticos:] transportan la linfa, rica en proteínas, sales, glucosa y otras sustancias, por todo el cuerpo.
             p.mt-4 #[strong Ganglios linfáticos:] se encargan de filtrar las sustancias que el líquido linfático transporta, contienen linfocitos (glóbulos blancos) que ayudan a combatir infecciones y enfermedades.
-            p.mt-4 #[strong Cisterna Pecquet:] recoge el líquido linfático proveniente de los vasos, piernas abdomen y la pelvis.
+            p.mt-4 #[strong Cisterna Pecquet:] recoge el líquido linfático proveniente de los vasos, piernas, abdomen y la pelvis.
             p.mt-4 #[strong Linfa:] líquido transparente y acuoso rico en proteínas, sales, glucosa y otras sustancias.
           .col-lg-3(style="place-self:center;")
             figure
@@ -276,6 +276,8 @@
             p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Recto:] recibe las sustancias de desecho (heces) para expulsarlas a través del ano.
           .tarjeta.color-acento-botones.p-4(x="48.5%" y="93%" numero="6" style="background-color:#E0D9F6;border-radius:0px;")
             p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Ano:] orificio al final del tubo digestivo, por donde los materiales de desecho salen del organismo.
+          .tarjeta.color-acento-botones.p-4(x="34%" y="83%" numero="5" style="background-color:#E0D9F6;border-radius:0px;")
+            p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Apéndice:] ubicado en la parte inicial del intestino grueso y no tiene una función definida.
     .col-lg-10.m-auto.mt-5
       .bloque-texto-a.color-secundario
         .row.m-0.align-items-center.justify-content-between
@@ -386,7 +388,7 @@
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
             h4 Articulaciones
-            p Son estructuras que facilitan la unión entre dos huesos o entre un hueso y un cartílagos y ligamentos. Favorecen los movimientos mecánicos brindando elasticidad. 
+            p Son estructuras que facilitan la unión entre dos huesos o entre un hueso y un cartílago y ligamentos. Favorecen los movimientos mecánicos brindando elasticidad. 
             p.mt-4 Existen de tres tipos: 
             ul.fa-ul.mt-3
               li
